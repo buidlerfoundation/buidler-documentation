@@ -1,4 +1,4 @@
 ---
-title: 'Setup new community'
+title: ⚙️ Setup new community
 sidebar_position: 1
 ---

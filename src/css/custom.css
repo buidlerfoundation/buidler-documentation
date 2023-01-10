@@ -6,10 +6,11 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #000000;
-  --ifm-color-primary-dark: #000000;
-  --ifm-color-primary-darker: #000000;
-  --ifm-color-primary-darkest: #000000;
+  --ifm-background-color: #FFFFFF;
+  --ifm-color-primary: #191919;
+  --ifm-color-primary-dark: #191919;
+  --ifm-color-primary-darker: #191919;
+  --ifm-color-primary-darkest: #191919;
   --ifm-color-primary-light: #727272;
   --ifm-color-primary-lighter: #acacac;
   --ifm-color-primary-lightest: #e8e8e8;
@@ -17,6 +18,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-menu-color-background-hover: none;
   --ifm-global-spacing: 1rem;
+  --ifm-navbar-background-color: #FFFFFF;
+  --ifm-toc-border-color: #F5F5F5;
+  --ifm-font-family-base: "SF UI Text Regular";
+  --ifm-menu-color: #949494;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -28,33 +33,32 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-menu-color: #acacac;
-  --ifm-background-color: #121212;
-
+  --docusaurus-highlighted-code-line-bg: rgba(55, 37, 37, 0.3);
+  --ifm-menu-color: #727272;
+  --ifm-background-color: #191919;
+  --ifm-navbar-background-color: #191919;
+  --ifm-toc-border-color: #242424;
+  --ifm-hover-overlay: #363636;
 }
 
 .menu__link--sublist {
   color:  var(--ifm-color-primary-dark);
+  font-weight: 700;
 }
+
 .menu__link--sublist:hover {
   color: var(--ifm-color-primary-dark);
+  font-weight: 700;
 }
 .menu {
   margin: 1rem;
 }
 
 .menu__link {
-  font-size: 0.938rem;
-  font-weight: 500;
-  line-height: 1.55;
-  letter-spacing: -.01em;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
 }
-
-/* .menu__list {
-  transition: height .25s cubic-bezier(.36,.66,.04,1) 25ms!important;
-  will-change: auto!important;
-} */
 
 .menu__list .menu__list {
   padding-right: var(--ifm-menu-link-padding-horizontal);
@@ -97,3 +101,134 @@
 .iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module {
   visibility: hidden;
 }
+
+.navbar {
+  border-bottom: 0.25px solid var(--ifm-toc-border-color);
+}
+
+.pagination-nav__link {
+  border: 1px solid var(--ifm-toc-border-color);
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #121212;
+  --ifm-footer-color: var(--ifm-footer-link-color);
+  --ifm-footer-link-color: var(--ifm-color-secondary);
+  --ifm-footer-title-color: var(--ifm-color-white);
+}
+
+
+/* @font-face {
+  font-family: "SF UI Text";
+  src: url('/css/fonts/SF.woff') format('woff');
+} */
+
+.navbar__link {
+  color: var(--ifm-navbar-link-color);
+  font-weight: 700;
+}
+
+.footer__link-item {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ifm-menu-color);
+}
+
+.footer__title {
+  font-size: 1rem;
+}
+
+@font-face {
+  font-family: 'SF UI Text Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Regular'),url('../fonts/SFUIText-Regular.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'SF UI Text Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Italic'), url('../fonts/SFUIText-RegularItalic.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'SF UI Text Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Light'), url('../fonts/SFUIText-Light.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'SF UI Text Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Light Italic'), url('../fonts/SFUIText-LightItalic.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'SF UI Text Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Medium'), url('../fonts/SFUIText-Medium.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'SF UI Text Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Medium Italic'), url('../fonts/SFUIText-MediumItalic.woff') format('woff');
+  }
+  
+ 
+  @font-face {
+  font-family: 'SF UI Text Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Semibold'),  url('../fonts/SFUIText-Semibold.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'SF UI Text Semibold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Semibold Italic'), url('../fonts/SFUIText-SemiboldItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'SF UI Text Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Bold'), url('../fonts/SFUIText-Bold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'SF UI Text Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Bold Italic'),  url('../fonts/SFUIText-BoldItalic.woff') format('woff');
+  }
+  
+ 
+  @font-face {
+  font-family: 'SF UI Text Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Heavy'),  url('../fonts/SFUIText-Heavy.woff') format('woff');
+  }
+ 
+
+  @font-face {
+  font-family: 'SF UI Text Heavy Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Heavy Italic'),  url('../fonts/SFUIText-HeavyItalic.woff') format('woff');
+  }

@@ -1,4 +1,4 @@
 ---
-title: 'Tokenomic'
+title: '🪙 Tokenomic'
 sidebar_position: 3
 ---

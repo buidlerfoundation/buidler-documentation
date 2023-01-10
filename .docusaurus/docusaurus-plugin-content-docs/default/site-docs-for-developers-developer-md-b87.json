@@ -1,0 +1,28 @@
+{
+  "unversionedId": "for-developers/developer",
+  "id": "for-developers/developer",
+  "title": "For developers",
+  "description": "",
+  "source": "@site/docs/for-developers/developer.md",
+  "sourceDirName": "for-developers",
+  "slug": "/for-developers/developer",
+  "permalink": "/docs/for-developers/developer",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/for-developers/developer.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "For developers",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "➡️ How to join a community",
+    "permalink": "/docs/for-community-members/how-to-join-a-community"
+  },
+  "next": {
+    "title": "🔑 How Buidler Store Your Password",
+    "permalink": "/docs/blog/how-buidler-store-your-password"
+  }
+}

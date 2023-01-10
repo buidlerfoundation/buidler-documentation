@@ -61,19 +61,13 @@ const config = {
         title: 'Buidler',
         hideOnScroll: true,
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Buidler Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'general/what-is-buidler',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
-            href: 'https://github.com/buidlerfoundation',
-            label: 'GitHub',
+            href: 'https://buidler.app/download',
+            label: 'Download',
             position: 'right',
           },
         ],
@@ -82,42 +76,62 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-            ],
-          },
-          {
-            title: 'Community',
+            title: 'Buidler - Make Web3 Happen',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Website',
+                href: 'https://buidler.app',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter/buidler_app',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/channel/UCIkFTkBdbVgzQgw6braFaeg',
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/buidlerfoundation',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Product',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Download',
+                href: 'https://buidler.app/download',
               },
-            ],
+            ]
           },
+          {
+            title: 'Company',
+            items: [
+              {
+                label: 'About',
+                href: 'https://buidler.app',
+              },
+              {
+                label: 'Terms',
+                href: 'https://buidler.app/terms',
+              },
+              {
+                label: 'Privacy',
+                href: 'https://buidler.app/privacy',
+              },
+            ]
+          }
         ],
-        copyright: `© ${new Date().getFullYear()} Buidler - All right reserved`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
       },
     }),
 };
