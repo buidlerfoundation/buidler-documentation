@@ -1,0 +1,28 @@
+{
+  "unversionedId": "for-community-members/how-to-join-a-community",
+  "id": "for-community-members/how-to-join-a-community",
+  "title": "How to join a community",
+  "description": "",
+  "source": "@site/docs/for-community-members/how-to-join-a-community.md",
+  "sourceDirName": "for-community-members",
+  "slug": "/for-community-members/how-to-join-a-community",
+  "permalink": "/docs/for-community-members/how-to-join-a-community",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/for-community-members/how-to-join-a-community.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "How to join a community",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup new community",
+    "permalink": "/docs/for-community-owner/setup-community"
+  },
+  "next": {
+    "title": "For developers",
+    "permalink": "/docs/for-developers/developer"
+  }
+}

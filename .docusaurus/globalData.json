@@ -1,0 +1,68 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "general/what-is-buidler",
+          "docs": [
+            {
+              "id": "blog/how-buidler-store-your-password",
+              "path": "/docs/blog/how-buidler-store-your-password",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "for-community-members/how-to-join-a-community",
+              "path": "/docs/for-community-members/how-to-join-a-community",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "for-community-owner/setup-community",
+              "path": "/docs/for-community-owner/setup-community",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "for-developers/developer",
+              "path": "/docs/for-developers/developer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "general/roadmap",
+              "path": "/docs/general/roadmap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "general/tokenomic",
+              "path": "/docs/general/tokenomic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "general/what-is-buidler",
+              "path": "/docs/general/what-is-buidler",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/overview",
+              "path": "/docs/governance/overview",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/general/what-is-buidler",
+                "label": "general/what-is-buidler"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
