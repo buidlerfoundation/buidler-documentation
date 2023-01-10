@@ -113,7 +113,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Buidler, Inc.  Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Buidler - All right reserved`,
       },
       prism: {
         theme: lightCodeTheme,

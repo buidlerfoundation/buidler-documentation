@@ -97,7 +97,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 Buidler, Inc.  Built with Docusaurus."
+      "copyright": "© 2023 Buidler - All right reserved"
     },
     "prism": {
       "theme": {
