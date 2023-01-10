@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/mac/buidler-documentation/sidebars.js",
+          "sidebarPath": "/Users/taihtm/Documents/buidler/buidler-documentation/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -35,7 +35,7 @@ export default {
         },
         "theme": {
           "customCss": [
-            "/Users/mac/buidler-documentation/src/css/custom.css"
+            "/Users/taihtm/Documents/buidler/buidler-documentation/src/css/custom.css"
           ]
         }
       }
