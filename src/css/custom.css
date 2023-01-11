@@ -88,6 +88,10 @@
   background: var(--ifm-menu-link-sublist-icon) 50% / 1.25rem 1.5rem;
 }
 
+.breadcrumbs__link {
+  font: "SF UI Text";
+}
+
 .container {
   padding-right: 50px;
   padding-left: 50px;
@@ -100,6 +104,10 @@
 
 
 .iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module {
+  visibility: hidden;
+}
+
+.iconExternalLink_nPIU {
   visibility: hidden;
 }
 
