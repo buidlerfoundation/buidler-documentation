@@ -1,5 +1,5 @@
 ---
-title: ' 📜  What is Buidler'
+title: 'What is Buidler'
 sidebar_position: 1
 ---
 

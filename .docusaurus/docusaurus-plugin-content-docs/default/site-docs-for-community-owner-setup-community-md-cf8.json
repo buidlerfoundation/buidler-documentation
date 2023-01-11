@@ -1,7 +1,7 @@
 {
   "unversionedId": "for-community-owner/setup-community",
   "id": "for-community-owner/setup-community",
-  "title": "⚙️ Setup new community",
+  "title": "Setup new community",
   "description": "",
   "source": "@site/docs/for-community-owner/setup-community.md",
   "sourceDirName": "for-community-owner",
@@ -13,16 +13,16 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "title": "⚙️ Setup new community",
+    "title": "Setup new community",
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "🪙 Tokenomic",
+    "title": "Tokenomic",
     "permalink": "/docs/general/tokenomic"
   },
   "next": {
-    "title": "➡️ How to join a community",
+    "title": "How to join a community",
     "permalink": "/docs/for-community-members/how-to-join-a-community"
   }
 }

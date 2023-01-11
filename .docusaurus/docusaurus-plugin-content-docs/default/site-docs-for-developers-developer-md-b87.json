@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "➡️ How to join a community",
+    "title": "How to join a community",
     "permalink": "/docs/for-community-members/how-to-join-a-community"
   },
   "next": {
-    "title": "🔑 How Buidler Store Your Password",
+    "title": "How Buidler Store Your Password",
     "permalink": "/docs/blog/how-buidler-store-your-password"
   }
 }

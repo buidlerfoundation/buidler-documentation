@@ -1,7 +1,7 @@
 {
   "unversionedId": "general/what-is-buidler",
   "id": "general/what-is-buidler",
-  "title": " 📜  What is Buidler",
+  "title": "What is Buidler",
   "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
   "source": "@site/docs/general/what-is-buidler.md",
   "sourceDirName": "general",
@@ -13,12 +13,12 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "title": " 📜  What is Buidler",
+    "title": "What is Buidler",
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "🗺️ Roadmap",
+    "title": "Roadmap",
     "permalink": "/docs/general/roadmap"
   }
 }

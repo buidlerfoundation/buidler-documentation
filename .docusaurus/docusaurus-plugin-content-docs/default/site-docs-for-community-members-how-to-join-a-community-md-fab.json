@@ -1,7 +1,7 @@
 {
   "unversionedId": "for-community-members/how-to-join-a-community",
   "id": "for-community-members/how-to-join-a-community",
-  "title": "➡️ How to join a community",
+  "title": "How to join a community",
   "description": "",
   "source": "@site/docs/for-community-members/how-to-join-a-community.md",
   "sourceDirName": "for-community-members",
@@ -13,12 +13,12 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "title": "➡️ How to join a community",
+    "title": "How to join a community",
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "⚙️ Setup new community",
+    "title": "Setup new community",
     "permalink": "/docs/for-community-owner/setup-community"
   },
   "next": {

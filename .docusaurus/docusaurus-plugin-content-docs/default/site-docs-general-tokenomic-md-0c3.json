@@ -1,7 +1,7 @@
 {
   "unversionedId": "general/tokenomic",
   "id": "general/tokenomic",
-  "title": "🪙 Tokenomic",
+  "title": "Tokenomic",
   "description": "",
   "source": "@site/docs/general/tokenomic.md",
   "sourceDirName": "general",
@@ -13,16 +13,16 @@
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
-    "title": "🪙 Tokenomic",
+    "title": "Tokenomic",
     "sidebar_position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "🗺️ Roadmap",
+    "title": "Roadmap",
     "permalink": "/docs/general/roadmap"
   },
   "next": {
-    "title": "⚙️ Setup new community",
+    "title": "Setup new community",
     "permalink": "/docs/for-community-owner/setup-community"
   }
 }

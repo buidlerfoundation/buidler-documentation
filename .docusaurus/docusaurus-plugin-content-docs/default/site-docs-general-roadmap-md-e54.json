@@ -1,7 +1,7 @@
 {
   "unversionedId": "general/roadmap",
   "id": "general/roadmap",
-  "title": "🗺️ Roadmap",
+  "title": "Roadmap",
   "description": "",
   "source": "@site/docs/general/roadmap.md",
   "sourceDirName": "general",
@@ -13,16 +13,16 @@
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
-    "title": "🗺️ Roadmap",
+    "title": "Roadmap",
     "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": " 📜  What is Buidler",
+    "title": "What is Buidler",
     "permalink": "/docs/general/what-is-buidler"
   },
   "next": {
-    "title": "🪙 Tokenomic",
+    "title": "Tokenomic",
     "permalink": "/docs/general/tokenomic"
   }
 }

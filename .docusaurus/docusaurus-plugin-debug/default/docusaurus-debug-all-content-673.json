@@ -22,7 +22,7 @@
             {
               "unversionedId": "blog/how-buidler-store-your-password",
               "id": "blog/how-buidler-store-your-password",
-              "title": "🔑 How Buidler Store Your Password",
+              "title": "How Buidler Store Your Password",
               "description": "",
               "source": "@site/docs/blog/how-buidler-store-your-password.md",
               "sourceDirName": "blog",
@@ -34,7 +34,7 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "title": "🔑 How Buidler Store Your Password",
+                "title": "How Buidler Store Your Password",
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
@@ -50,7 +50,7 @@
             {
               "unversionedId": "for-community-members/how-to-join-a-community",
               "id": "for-community-members/how-to-join-a-community",
-              "title": "➡️ How to join a community",
+              "title": "How to join a community",
               "description": "",
               "source": "@site/docs/for-community-members/how-to-join-a-community.md",
               "sourceDirName": "for-community-members",
@@ -62,12 +62,12 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "title": "➡️ How to join a community",
+                "title": "How to join a community",
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "⚙️ Setup new community",
+                "title": "Setup new community",
                 "permalink": "/docs/for-community-owner/setup-community"
               },
               "next": {
@@ -78,7 +78,7 @@
             {
               "unversionedId": "for-community-owner/setup-community",
               "id": "for-community-owner/setup-community",
-              "title": "⚙️ Setup new community",
+              "title": "Setup new community",
               "description": "",
               "source": "@site/docs/for-community-owner/setup-community.md",
               "sourceDirName": "for-community-owner",
@@ -90,16 +90,16 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "title": "⚙️ Setup new community",
+                "title": "Setup new community",
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🪙 Tokenomic",
+                "title": "Tokenomic",
                 "permalink": "/docs/general/tokenomic"
               },
               "next": {
-                "title": "➡️ How to join a community",
+                "title": "How to join a community",
                 "permalink": "/docs/for-community-members/how-to-join-a-community"
               }
             },
@@ -123,18 +123,18 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "➡️ How to join a community",
+                "title": "How to join a community",
                 "permalink": "/docs/for-community-members/how-to-join-a-community"
               },
               "next": {
-                "title": "🔑 How Buidler Store Your Password",
+                "title": "How Buidler Store Your Password",
                 "permalink": "/docs/blog/how-buidler-store-your-password"
               }
             },
             {
               "unversionedId": "general/roadmap",
               "id": "general/roadmap",
-              "title": "🗺️ Roadmap",
+              "title": "Roadmap",
               "description": "",
               "source": "@site/docs/general/roadmap.md",
               "sourceDirName": "general",
@@ -146,23 +146,23 @@
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "title": "🗺️ Roadmap",
+                "title": "Roadmap",
                 "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": " 📜  What is Buidler",
+                "title": "What is Buidler",
                 "permalink": "/docs/general/what-is-buidler"
               },
               "next": {
-                "title": "🪙 Tokenomic",
+                "title": "Tokenomic",
                 "permalink": "/docs/general/tokenomic"
               }
             },
             {
               "unversionedId": "general/tokenomic",
               "id": "general/tokenomic",
-              "title": "🪙 Tokenomic",
+              "title": "Tokenomic",
               "description": "",
               "source": "@site/docs/general/tokenomic.md",
               "sourceDirName": "general",
@@ -174,23 +174,23 @@
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
-                "title": "🪙 Tokenomic",
+                "title": "Tokenomic",
                 "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🗺️ Roadmap",
+                "title": "Roadmap",
                 "permalink": "/docs/general/roadmap"
               },
               "next": {
-                "title": "⚙️ Setup new community",
+                "title": "Setup new community",
                 "permalink": "/docs/for-community-owner/setup-community"
               }
             },
             {
               "unversionedId": "general/what-is-buidler",
               "id": "general/what-is-buidler",
-              "title": " 📜  What is Buidler",
+              "title": "What is Buidler",
               "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
               "source": "@site/docs/general/what-is-buidler.md",
               "sourceDirName": "general",
@@ -202,12 +202,12 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "title": " 📜  What is Buidler",
+                "title": "What is Buidler",
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "🗺️ Roadmap",
+                "title": "Roadmap",
                 "permalink": "/docs/general/roadmap"
               }
             },
@@ -231,7 +231,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🔑 How Buidler Store Your Password",
+                "title": "How Buidler Store Your Password",
                 "permalink": "/docs/blog/how-buidler-store-your-password"
               }
             }
@@ -241,7 +241,7 @@
             "tutorialSidebar": [
               {
                 "type": "category",
-                "label": "❇️ General",
+                "label": "General",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -261,7 +261,7 @@
               },
               {
                 "type": "category",
-                "label": "👑 For Community Owner",
+                "label": "Community Owner",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -273,7 +273,7 @@
               },
               {
                 "type": "category",
-                "label": "👤 For Community Members",
+                "label": "Community Members",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -285,7 +285,7 @@
               },
               {
                 "type": "category",
-                "label": "🧑‍💻 For Developers",
+                "label": "Developers",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -297,7 +297,7 @@
               },
               {
                 "type": "category",
-                "label": "📖 Blog",
+                "label": "Blog",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -309,7 +309,7 @@
               },
               {
                 "type": "category",
-                "label": "🏛️ Governance",
+                "label": "Governance",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
