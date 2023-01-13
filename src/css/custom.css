@@ -45,7 +45,7 @@
   --ifm-pagination-nav-color-hover: #242424;
 }
 
-.docsWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-styles-module {
+.main-wrapper{
   background: var(--background-color);
 }
 
@@ -119,8 +119,8 @@
   border: 1px solid var(--border-color);
 }
 
-.sidebar_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module {
-  border-right: 1px solid var(--border-color);
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--border-color) !important;
 }
 
 
