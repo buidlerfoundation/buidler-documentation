@@ -70,6 +70,12 @@ const config = {
             label: 'Download',
             position: 'right',
           },
+          {
+            href: 'https://invite.buidler.app/buidler',
+            label: 'Join Community',
+            position: 'right',
+            class: "join-community"
+          },
         ],
       },
       footer: {

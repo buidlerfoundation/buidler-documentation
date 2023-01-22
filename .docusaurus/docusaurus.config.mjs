@@ -54,6 +54,12 @@ export default {
           "href": "https://buidler.app/download",
           "label": "Download",
           "position": "right"
+        },
+        {
+          "href": "https://invite.buidler.app/buidler",
+          "label": "Join Community",
+          "position": "right",
+          "class": "join-community"
         }
       ]
     },
