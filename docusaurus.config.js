@@ -132,11 +132,11 @@ const config = {
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        // darkTheme: darkCodeTheme,
       },
       colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: false,
+        defaultMode: 'light',
+        disableSwitch: true,
         respectPrefersColorScheme: true,
       },
     }),
