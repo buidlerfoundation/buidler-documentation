@@ -2,7 +2,7 @@
   "unversionedId": "general/tokenomic",
   "id": "general/tokenomic",
   "title": "Tokenomic",
-  "description": "",
+  "description": "token-info",
   "source": "@site/docs/general/tokenomic.md",
   "sourceDirName": "general",
   "slug": "/general/tokenomic",

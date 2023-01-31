@@ -111,7 +111,7 @@
     "blog/how-buidler-store-your-password": {
       "id": "blog/how-buidler-store-your-password",
       "title": "How Buidler Store Your Password",
-      "description": "",
+      "description": "Builder is a perfectly combining social messaging and crypto wallet. In addition to messaging, you can easily store, transfer and receive tokens and NFTs.",
       "sidebar": "tutorialSidebar"
     },
     "for-community-members/how-to-join-a-community": {
@@ -135,19 +135,19 @@
     "general/roadmap": {
       "id": "general/roadmap",
       "title": "Roadmap",
-      "description": "",
+      "description": "Q4/2021",
       "sidebar": "tutorialSidebar"
     },
     "general/tokenomic": {
       "id": "general/tokenomic",
       "title": "Tokenomic",
-      "description": "",
+      "description": "token-info",
       "sidebar": "tutorialSidebar"
     },
     "general/what-is-buidler": {
       "id": "general/what-is-buidler",
       "title": "What is Buidler",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+      "description": "Buidler is a Web3 Messaging App for your community, teams, and supporters to connect, communicate and collaborate.",
       "sidebar": "tutorialSidebar"
     },
     "governance/overview": {

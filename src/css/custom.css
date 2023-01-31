@@ -28,7 +28,8 @@
   --join-community-color: #fffefd;
   --ifm-navbar-item-padding-horizontal: 1.5rem;
   --ifm-navbar-item-padding-vertical: 0.5rem;
-
+  --ifm-footer-link-hover-color: #e8e8e8;
+  --ifm-link-hover-color: #0584fe;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -48,6 +49,8 @@
   --ifm-hover-overlay: #363636;
   --ifm-toc-border-color: #242424;
   --ifm-pagination-nav-color-hover: #242424;
+  --ifm-footer-link-hover-color: #e8e8e8;
+  --ifm-link-hover-color: #0584fe;
 }
 
 .main-wrapper{
@@ -147,6 +150,9 @@
   border-right: 1px solid var(--border-color) !important;
 }
 
+.theme-doc-footer-edit-meta-row {
+  display: none;
+}
 
 .footer--dark {
   --ifm-footer-background-color: #121212;
@@ -155,6 +161,20 @@
   --ifm-footer-title-color: var(--ifm-color-white);
 }
 
+img {
+  border-radius: 5px;
+}
+body {
+  font-weight: 500;
+  font-size: 18px;
+}
+a, a:focus {
+  color: #0584fe;
+}
+
+a:hover{
+  text-decoration: underline;
+}
 
 .navbar__link {
   color: var(--ifm-navbar-link-color);
@@ -165,6 +185,10 @@
   font-size: 1rem;
   font-weight: 600;
   color: #868686;
+}
+
+.footer__link-item: :hover {
+
 }
 
 .footer__title {
