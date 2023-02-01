@@ -233,7 +233,7 @@ export default {
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": true,
-      "respectPrefersColorScheme": true
+      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",
