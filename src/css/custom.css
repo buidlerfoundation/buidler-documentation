@@ -247,13 +247,15 @@ a:hover{
   justify-content: center;
 }
   
-.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
-  max-width: 43rem;
-  min-width: 43rem;
-}
-.docItemContainer_Djhp {
-  max-width: 43rem;
-  min-width: 43rem;
+@media only screen and (min-width: 800px) {
+  .docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
+    max-width: 43rem;
+    min-width: 43rem;
+  }
+  .docItemContainer_Djhp {
+    max-width: 43rem;
+    min-width: 43rem;
+  }
 }
 
 @font-face {
