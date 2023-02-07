@@ -27,7 +27,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   presets: [
     [
       'classic',
@@ -139,7 +138,9 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
+      zoomSelector: '.markdown img',
     }),
+    plugins: ['plugin-image-zoom'],
 };
 
 module.exports = config;
