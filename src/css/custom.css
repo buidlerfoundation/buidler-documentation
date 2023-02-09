@@ -246,6 +246,10 @@ a:hover{
   display: flex;
   justify-content: center;
 }
+
+.navbar-sidebar__brand {
+  justify-content: space-between;
+}
   
 @media only screen and (min-width: 800px) {
   .docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
@@ -255,6 +259,21 @@ a:hover{
   .docItemContainer_Djhp {
     max-width: 43rem;
     min-width: 43rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu {
+    margin: 0;
+  }
+  .clean-btn {
+    margin-left: 0;
+  }
+  .navbar-sidebar__item:nth-child(2) {
+    padding: 0;
+  }
+  .navbar-sidebar__back {
+    top: 0;
   }
 }
 
