@@ -235,7 +235,14 @@ export default {
       "disableSwitch": true,
       "respectPrefersColorScheme": false
     },
-    "zoomSelector": ".markdown img",
+    "zoom": {
+      "selector": ".markdown :not(em) > img",
+      "background": {
+        "light": "rgb(255, 255, 255)",
+        "dark": "rgb(50, 50, 50)"
+      },
+      "config": {}
+    },
     "docs": {
       "versionPersistence": "localStorage",
       "sidebar": {
@@ -250,7 +257,7 @@ export default {
     }
   },
   "plugins": [
-    "plugin-image-zoom"
+    "/Users/mac/buidler-documentation/node_modules/docusaurus-plugin-image-zoom/src/index.js"
   ],
   "baseUrlIssueBanner": true,
   "onDuplicateRoutes": "warn",

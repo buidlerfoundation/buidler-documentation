@@ -3,5 +3,5 @@ export default [
   require('/Users/mac/buidler-documentation/node_modules/@docusaurus/theme-classic/lib/prism-include-languages'),
   require('/Users/mac/buidler-documentation/node_modules/@docusaurus/theme-classic/lib/nprogress'),
   require('/Users/mac/buidler-documentation/src/css/custom.css'),
-  require('/Users/mac/buidler-documentation/node_modules/plugin-image-zoom/src/zoom'),
+  require('/Users/mac/buidler-documentation/node_modules/docusaurus-plugin-image-zoom/src/zoom'),
 ];

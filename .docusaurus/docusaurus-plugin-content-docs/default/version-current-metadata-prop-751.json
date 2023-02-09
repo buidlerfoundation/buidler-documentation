@@ -91,7 +91,7 @@
           },
           {
             "type": "link",
-            "label": "Discord, Telegram, And The Dark Side Of Web3",
+            "label": "Discord, Telegram, And The Dark Side Of Web2",
             "href": "/docs/blog/discord-in-web3",
             "docId": "blog/discord-in-web3"
           }
@@ -116,7 +116,7 @@
   "docs": {
     "blog/discord-in-web3": {
       "id": "blog/discord-in-web3",
-      "title": "Discord, Telegram, And The Dark Side Of Web3",
+      "title": "Discord, Telegram, And The Dark Side Of Web2",
       "description": "Web3 is forging a new path, radical shifting from the centralized model to shared ownership and decentralized decision-making. And when the web3 community continues to evolve and mature, one thing becomes clear: Discord and Telegram just don't fit in anymore.",
       "sidebar": "tutorialSidebar"
     },

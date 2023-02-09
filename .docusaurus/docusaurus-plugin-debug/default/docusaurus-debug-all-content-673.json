@@ -22,19 +22,19 @@
             {
               "unversionedId": "blog/discord-in-web3",
               "id": "blog/discord-in-web3",
-              "title": "Discord, Telegram, And The Dark Side Of Web3",
+              "title": "Discord, Telegram, And The Dark Side Of Web2",
               "description": "Web3 is forging a new path, radical shifting from the centralized model to shared ownership and decentralized decision-making. And when the web3 community continues to evolve and mature, one thing becomes clear: Discord and Telegram just don't fit in anymore.",
-              "source": "@site/docs/blog/discord-in-web3.md",
+              "source": "@site/docs/blog/discord-in-web3.mdx",
               "sourceDirName": "blog",
               "slug": "/blog/discord-in-web3",
               "permalink": "/docs/blog/discord-in-web3",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog/discord-in-web3.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog/discord-in-web3.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "title": "Discord, Telegram, And The Dark Side Of Web3",
+                "title": "Discord, Telegram, And The Dark Side Of Web2",
                 "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
@@ -71,7 +71,7 @@
                 "permalink": "/docs/for-developers/developer"
               },
               "next": {
-                "title": "Discord, Telegram, And The Dark Side Of Web3",
+                "title": "Discord, Telegram, And The Dark Side Of Web2",
                 "permalink": "/docs/blog/discord-in-web3"
               }
             },
@@ -259,7 +259,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Discord, Telegram, And The Dark Side Of Web3",
+                "title": "Discord, Telegram, And The Dark Side Of Web2",
                 "permalink": "/docs/blog/discord-in-web3"
               }
             }
