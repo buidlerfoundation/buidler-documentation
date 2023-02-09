@@ -20,6 +20,34 @@
           "contentPathLocalized": "/Users/mac/buidler-documentation/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "blog/discord-in-web3",
+              "id": "blog/discord-in-web3",
+              "title": "Discord, Telegram, And The Dark Side Of Web3",
+              "description": "Web3 is forging a new path, radical shifting from the centralized model to shared ownership and decentralized decision-making. And when the web3 community continues to evolve and mature, one thing becomes clear: Discord and Telegram just don't fit in anymore.",
+              "source": "@site/docs/blog/discord-in-web3.md",
+              "sourceDirName": "blog",
+              "slug": "/blog/discord-in-web3",
+              "permalink": "/docs/blog/discord-in-web3",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog/discord-in-web3.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Discord, Telegram, And The Dark Side Of Web3",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How Buidler Store Your Password",
+                "permalink": "/docs/blog/how-buidler-store-your-password"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/governance/overview"
+              }
+            },
+            {
               "unversionedId": "blog/how-buidler-store-your-password",
               "id": "blog/how-buidler-store-your-password",
               "title": "How Buidler Store Your Password",
@@ -43,8 +71,8 @@
                 "permalink": "/docs/for-developers/developer"
               },
               "next": {
-                "title": "Overview",
-                "permalink": "/docs/governance/overview"
+                "title": "Discord, Telegram, And The Dark Side Of Web3",
+                "permalink": "/docs/blog/discord-in-web3"
               }
             },
             {
@@ -231,8 +259,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How Buidler Store Your Password",
-                "permalink": "/docs/blog/how-buidler-store-your-password"
+                "title": "Discord, Telegram, And The Dark Side Of Web3",
+                "permalink": "/docs/blog/discord-in-web3"
               }
             }
           ],
@@ -304,6 +332,10 @@
                   {
                     "type": "doc",
                     "id": "blog/how-buidler-store-your-password"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "blog/discord-in-web3"
                   }
                 ]
               },
@@ -356,6 +388,7 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
+  "docusaurus-plugin-image-zoom": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

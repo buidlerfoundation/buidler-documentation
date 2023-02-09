@@ -1,98 +1,59 @@
 {
-  "/__docusaurus/debug-4a3": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
-  "/__docusaurus/debug/config-21e": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
-  "/__docusaurus/debug/content-557": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-f63": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
-  "/__docusaurus/debug/metadata-c48": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
-  "/__docusaurus/debug/registry-0a8": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
-  "/__docusaurus/debug/routes-693": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
   "/markdown-page-491": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-page-68-c-22a"
+      "plugin": "68ced570"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
-  "/docs-138": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+  "/docs-a41": {
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---docsc-1-a-6ad"
+      "plugin": "c1a0c411"
     },
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "versionMetadata": "935f2afb"
+  },
+  "/docs/blog/discord-in-web3-1f0": {
+    "__comp": "17896441",
+    "content": "eff46981"
   },
   "/docs/blog/how-buidler-store-your-password-d4e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-blog-how-buidler-store-your-password-1-da-f2e"
+    "__comp": "17896441",
+    "content": "1da2ec59"
   },
   "/docs/for-community-members/how-to-join-a-community-a11": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-for-community-members-how-to-join-a-communityfab-1c9"
+    "__comp": "17896441",
+    "content": "fab2470f"
   },
   "/docs/for-community-owner/setup-community-c25": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-for-community-owner-setup-communitycf-8-3b4"
+    "__comp": "17896441",
+    "content": "cf8cfd01"
   },
   "/docs/for-developers/developer-8e9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-for-developers-developerb-87-977"
+    "__comp": "17896441",
+    "content": "b876b4f5"
   },
   "/docs/general/roadmap-021": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-general-roadmape-54-910"
+    "__comp": "17896441",
+    "content": "e540e015"
   },
   "/docs/general/tokenomic-568": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-general-tokenomic-0-c-3-efd"
+    "__comp": "17896441",
+    "content": "0c3e9aa1"
   },
   "/docs/general/what-is-buidler-299": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-general-what-is-buidler-570-684"
+    "__comp": "17896441",
+    "content": "5701d742"
   },
   "/docs/governance/overview-355": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-governance-overviewdb-3-76b"
+    "__comp": "17896441",
+    "content": "db3bc590"
   },
   "/-d45": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---markdown-page-68-c-22a"
+      "plugin": "68ced570"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }

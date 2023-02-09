@@ -235,6 +235,7 @@ export default {
       "disableSwitch": true,
       "respectPrefersColorScheme": false
     },
+    "zoomSelector": ".markdown img",
     "docs": {
       "versionPersistence": "localStorage",
       "sidebar": {
@@ -248,13 +249,15 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "plugins": [
+    "plugin-image-zoom"
+  ],
   "baseUrlIssueBanner": true,
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],
