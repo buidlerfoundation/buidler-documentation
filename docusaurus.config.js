@@ -57,6 +57,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{property: 'og:image', content: 'https://docs.buidler.app/img/blog/how-buidler-store-your-password.png'}],
       navbar: {
         title: "Buidler",
         hideOnScroll: true,
