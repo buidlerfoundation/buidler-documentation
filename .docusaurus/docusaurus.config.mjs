@@ -42,6 +42,20 @@ export default {
     ]
   ],
   "themeConfig": {
+    "metadata": [
+      {
+        "property": "og:image",
+        "content": "https://docs.buidler.app/img/buidler.png"
+      },
+      {
+        "property": "og:description",
+        "content": "Welcome to Buidler documentation! Learn about updates, insights, and real-world use cases. Join our community and be part of the future of decentralized communication today."
+      },
+      {
+        "property": "og:title",
+        "content": "Buidler Documentation"
+      }
+    ],
     "navbar": {
       "title": "Buidler",
       "hideOnScroll": true,
@@ -250,7 +264,6 @@ export default {
         "autoCollapseCategories": false
       }
     },
-    "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
