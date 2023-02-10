@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [{property: 'og:image', content: 'https://docs.buidler.app/img/buidler.png'},
-                {property: 'og:description', content: 'Welcome to Buidler documentation! Learn about updates, insights, and real-world use cases. Join our community and be part of the future of decentralized communication today.'},
+                {property: 'og:description', content: 'Stay up-to-date with the latest updates, insights, and use cases of Buidler. Join our community and be part of the future of decentralized communication today.'},
                 {property: 'og:title', content: 'Buidler Documentation'},
               ],
       navbar: {
