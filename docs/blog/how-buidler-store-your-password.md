@@ -1,7 +1,16 @@
 ---
-title: 'How Buidler Store Your Password'
+id: "how-buidler-store-your-password"
+title: "How Buidler Store Your Password"
 sidebar_position: 1
 ---
+
+<head>
+  <meta
+    property="og:image"
+    content="https://docs.buidler.app/img/blog/how-buidler-store-your-password.png"
+  />
+</head>
+
 # How Buidler Stored Your Password
 
 Builder is a perfectly combining social messaging and crypto wallet. In addition to messaging, you can easily store, transfer and receive tokens and NFTs.
@@ -51,7 +60,6 @@ When will decrypted data be cleaned from memory? When you kill the Builder app, 
 In short, encrypting and decrypting data in Builder requires something that ONLY you know – your password. We don't store your password and seed phrase anywhere on our servers and never transmit it over the internet.
 
 The diagram below shows how we store your password and use it each time you enter it.
-
 
 ![token-info](../../static/img/blog/how-buidler-store-your-password.png)
 
