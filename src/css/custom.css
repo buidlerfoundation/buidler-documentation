@@ -261,6 +261,9 @@ a:hover{
     max-width: 43rem;
     min-width: 43rem;
   }
+  .container {
+    max-width: 100%!important;
+  }
 }
 
 @media (max-width: 600px) {
@@ -275,6 +278,9 @@ a:hover{
   }
   .navbar-sidebar__back {
     top: 0;
+  }
+  .container {
+    max-width: 100%!important;
   }
 }
 

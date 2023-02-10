@@ -57,7 +57,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{property: 'og:image', content: 'https://docs.buidler.app/img/buidler.png'}],
+      // metadata: [{property: 'og:image', content: 'https://docs.buidler.app/img/buidler.png'}],
       navbar: {
         title: "Buidler",
         hideOnScroll: true,

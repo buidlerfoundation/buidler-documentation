@@ -1,6 +1,8 @@
 ---
 title: 'What is Buidler'
 sidebar_position: 1
+image: 'https://docs.buidler.app/img/buidler.png'
+description: 'Buidler is a Web3 Messaging App for your community, teams, and supporters to connect, communicate and collaborate. By perfectly combining social messaging and crypto wallet, the mission of Buidler is to make Web3 more useful for everyone and make Web3 happen.'
 ---
 
 # What is Buidler?

@@ -42,12 +42,6 @@ export default {
     ]
   ],
   "themeConfig": {
-    "metadata": [
-      {
-        "property": "og:image",
-        "content": "https://docs.buidler.app/img/buidler.png"
-      }
-    ],
     "navbar": {
       "title": "Buidler",
       "hideOnScroll": true,
@@ -256,6 +250,7 @@ export default {
         "autoCollapseCategories": false
       }
     },
+    "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
