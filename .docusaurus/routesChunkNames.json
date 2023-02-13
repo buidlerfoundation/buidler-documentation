@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-107": {
+  "/docs-d79": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsc-1-a-6ad"
@@ -84,10 +84,6 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-general-what-is-buidler-570-684"
   },
-  "/docs/governance/overview-355": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-governance-overviewdb-3-76b"
-  },
   "/docs/using-buidler/connect-via-metamask-walletconnect-78f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-using-buidler-connect-via-metamask-walletconnect-7-cd-cd8"
@@ -115,6 +111,10 @@
   "/docs/using-buidler/how-to-import-wallet-91c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-using-buidler-how-to-import-walletc-4-b-981"
+  },
+  "/docs/using-buidler/how-to-join-community-9c7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-using-buidler-how-to-join-community-67-d-684"
   },
   "/-d45": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

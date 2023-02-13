@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '107'),
+    component: ComponentCreator('/docs', 'd79'),
     routes: [
       {
         path: '/docs/blog/discord-in-web3',
@@ -89,12 +89,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/governance/overview',
-        component: ComponentCreator('/docs/governance/overview', '355'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/using-buidler/connect-via-metamask-walletconnect',
         component: ComponentCreator('/docs/using-buidler/connect-via-metamask-walletconnect', '78f'),
         exact: true,
@@ -133,6 +127,12 @@ export default [
       {
         path: '/docs/using-buidler/how-to-import-wallet',
         component: ComponentCreator('/docs/using-buidler/how-to-import-wallet', '91c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/using-buidler/how-to-join-community',
+        component: ComponentCreator('/docs/using-buidler/how-to-join-community', '9c7'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

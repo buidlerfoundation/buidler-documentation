@@ -43,10 +43,6 @@
               "previous": {
                 "title": "How Buidler Store Your Password",
                 "permalink": "/docs/blog/how-buidler-store-your-password"
-              },
-              "next": {
-                "title": "Overview",
-                "permalink": "/docs/governance/overview"
               }
             },
             {
@@ -70,8 +66,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How to backup your wallet",
-                "permalink": "/docs/using-buidler/how-to-backup-wallet"
+                "title": "Join a Community",
+                "permalink": "/docs/using-buidler/how-to-join-community"
               },
               "next": {
                 "title": "Discord, Telegram, And The Dark Side Of Web2",
@@ -217,30 +213,6 @@
               }
             },
             {
-              "unversionedId": "governance/overview",
-              "id": "governance/overview",
-              "title": "Overview",
-              "description": "",
-              "source": "@site/docs/governance/overview.md",
-              "sourceDirName": "governance",
-              "slug": "/governance/overview",
-              "permalink": "/docs/governance/overview",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/governance/overview.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "Overview",
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Discord, Telegram, And The Dark Side Of Web2",
-                "permalink": "/docs/blog/discord-in-web3"
-              }
-            },
-            {
               "unversionedId": "using-buidler/connect-via-metamask-walletconnect",
               "id": "using-buidler/connect-via-metamask-walletconnect",
               "title": "Connect via MetaMask and WalletConnect",
@@ -260,7 +232,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How to import wallet with Buidler?",
+                "title": "Import a Wallet",
                 "permalink": "/docs/using-buidler/how-to-import-wallet"
               },
               "next": {
@@ -292,7 +264,7 @@
                 "permalink": "/docs/using-buidler/connect-via-metamask-walletconnect"
               },
               "next": {
-                "title": "How to copy your wallet address in Buidler?",
+                "title": "Copy wallet address",
                 "permalink": "/docs/using-buidler/how-copy-address"
               }
             },
@@ -320,14 +292,14 @@
                 "permalink": "/docs/for-community-members/how-to-join-a-community"
               },
               "next": {
-                "title": "How to create wallet with Buidler?",
+                "title": "Create a Wallet",
                 "permalink": "/docs/using-buidler/how-to-create-wallet"
               }
             },
             {
               "unversionedId": "using-buidler/how-copy-address",
               "id": "using-buidler/how-copy-address",
-              "title": "How to copy your wallet address in Buidler?",
+              "title": "Copy wallet address",
               "description": "To copy your wallet address on Builder, you will need to follow a few simple steps:",
               "source": "@site/docs/using-buidler/how-copy-address.mdx",
               "sourceDirName": "using-buidler",
@@ -339,7 +311,7 @@
               "version": "current",
               "sidebarPosition": 6,
               "frontMatter": {
-                "title": "How to copy your wallet address in Buidler?",
+                "title": "Copy wallet address",
                 "sidebar_position": 6
               },
               "sidebar": "tutorialSidebar",
@@ -348,14 +320,14 @@
                 "permalink": "/docs/using-buidler/connect-via-social"
               },
               "next": {
-                "title": "How to backup your wallet",
+                "title": "Backup a Wallet",
                 "permalink": "/docs/using-buidler/how-to-backup-wallet"
               }
             },
             {
               "unversionedId": "using-buidler/how-to-backup-wallet",
               "id": "using-buidler/how-to-backup-wallet",
-              "title": "How to backup your wallet",
+              "title": "Backup a Wallet",
               "description": "Backing up your private key and seed phrase is a critical step for securing your cryptocurrency assets. A private key is a unique, alphanumeric code that acts as a password for accessing your wallet. The seed phrase, also known as a mnemonic phrase, is a sequence of words that can be used to generate the private key.",
               "source": "@site/docs/using-buidler/how-to-backup-wallet.mdx",
               "sourceDirName": "using-buidler",
@@ -367,23 +339,23 @@
               "version": "current",
               "sidebarPosition": 7,
               "frontMatter": {
-                "title": "How to backup your wallet",
+                "title": "Backup a Wallet",
                 "sidebar_position": 7
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How to copy your wallet address in Buidler?",
+                "title": "Copy wallet address",
                 "permalink": "/docs/using-buidler/how-copy-address"
               },
               "next": {
-                "title": "How Buidler Store Your Password",
-                "permalink": "/docs/blog/how-buidler-store-your-password"
+                "title": "Join a Community",
+                "permalink": "/docs/using-buidler/how-to-join-community"
               }
             },
             {
               "unversionedId": "using-buidler/how-to-create-wallet",
               "id": "using-buidler/how-to-create-wallet",
-              "title": "How to create wallet with Buidler?",
+              "title": "Create a Wallet",
               "description": "Builder is a web3 native platform that allows you to securely store, send, and receive tokens, NFTs, and cryptocurrencies. In other words, Builder is just a crypto wallet. Just download the Buidler app on iOS or macOS and follow these steps to make a new wallet:",
               "source": "@site/docs/using-buidler/how-to-create-wallet.mdx",
               "sourceDirName": "using-buidler",
@@ -395,7 +367,7 @@
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "title": "How to create wallet with Buidler?",
+                "title": "Create a Wallet",
                 "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
@@ -404,14 +376,14 @@
                 "permalink": "/docs/using-buidler/getting-started"
               },
               "next": {
-                "title": "How to import wallet with Buidler?",
+                "title": "Import a Wallet",
                 "permalink": "/docs/using-buidler/how-to-import-wallet"
               }
             },
             {
               "unversionedId": "using-buidler/how-to-import-wallet",
               "id": "using-buidler/how-to-import-wallet",
-              "title": "How to import wallet with Buidler?",
+              "title": "Import a Wallet",
               "description": "If you already have a wallet, you can import it to Buidler using your seed phrase or private key. This will enable you to use your existing wallet to access the Buidler platform.",
               "source": "@site/docs/using-buidler/how-to-import-wallet.mdx",
               "sourceDirName": "using-buidler",
@@ -423,17 +395,45 @@
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
-                "title": "How to import wallet with Buidler?",
+                "title": "Import a Wallet",
                 "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How to create wallet with Buidler?",
+                "title": "Create a Wallet",
                 "permalink": "/docs/using-buidler/how-to-create-wallet"
               },
               "next": {
                 "title": "Connect via MetaMask and WalletConnect",
                 "permalink": "/docs/using-buidler/connect-via-metamask-walletconnect"
+              }
+            },
+            {
+              "unversionedId": "using-buidler/how-to-join-community",
+              "id": "using-buidler/how-to-join-community",
+              "title": "Join a Community",
+              "description": "All you need is an invitation link to the community you want to join.",
+              "source": "@site/docs/using-buidler/how-to-join-community.mdx",
+              "sourceDirName": "using-buidler",
+              "slug": "/using-buidler/how-to-join-community",
+              "permalink": "/docs/using-buidler/how-to-join-community",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/using-buidler/how-to-join-community.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "title": "Join a Community",
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Backup a Wallet",
+                "permalink": "/docs/using-buidler/how-to-backup-wallet"
+              },
+              "next": {
+                "title": "How Buidler Store Your Password",
+                "permalink": "/docs/blog/how-buidler-store-your-password"
               }
             }
           ],
@@ -517,6 +517,10 @@
                   {
                     "type": "doc",
                     "id": "using-buidler/how-to-backup-wallet"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "using-buidler/how-to-join-community"
                   }
                 ]
               },
@@ -533,18 +537,6 @@
                   {
                     "type": "doc",
                     "id": "blog/discord-in-web3"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Governance",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "governance/overview"
                   }
                 ]
               }
