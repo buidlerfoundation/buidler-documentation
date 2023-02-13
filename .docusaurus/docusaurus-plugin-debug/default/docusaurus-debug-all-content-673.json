@@ -70,8 +70,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How to import wallet with Buidler?",
-                "permalink": "/docs/using-buidler/how-to-import-wallet"
+                "title": "Connect via MetaMask and WalletConnect",
+                "permalink": "/docs/using-buidler/connect-via-metamask-walletconnect"
               },
               "next": {
                 "title": "Discord, Telegram, And The Dark Side Of Web2",
@@ -241,6 +241,34 @@
               }
             },
             {
+              "unversionedId": "using-buidler/connect-via-metamask-walletconnect",
+              "id": "using-buidler/connect-via-metamask-walletconnect",
+              "title": "Connect via MetaMask and WalletConnect",
+              "description": "Currently, Buidler only supports connecting through MetaMask and WalletConnect on the browser. This feature enables you to conveniently access and manage your crypto assets within the Buidler platform.",
+              "source": "@site/docs/using-buidler/connect-via-metamask-walletconnect.mdx",
+              "sourceDirName": "using-buidler",
+              "slug": "/using-buidler/connect-via-metamask-walletconnect",
+              "permalink": "/docs/using-buidler/connect-via-metamask-walletconnect",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/using-buidler/connect-via-metamask-walletconnect.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Connect via MetaMask and WalletConnect",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to import wallet with Buidler?",
+                "permalink": "/docs/using-buidler/how-to-import-wallet"
+              },
+              "next": {
+                "title": "How Buidler Store Your Password",
+                "permalink": "/docs/blog/how-buidler-store-your-password"
+              }
+            },
+            {
               "unversionedId": "using-buidler/getting-started",
               "id": "using-buidler/getting-started",
               "title": "Getting Started",
@@ -300,7 +328,7 @@
               "unversionedId": "using-buidler/how-to-import-wallet",
               "id": "using-buidler/how-to-import-wallet",
               "title": "How to import wallet with Buidler?",
-              "description": "If you already have a wallet, you can import your wallet with a seed phrase or private key on Buidler. The process is straightforward and involves entering your seed phrase or private key into the app.",
+              "description": "If you already have a wallet, you can import it to Buidler using your seed phrase or private key. This will enable you to use your existing wallet to access the Buidler platform.",
               "source": "@site/docs/using-buidler/how-to-import-wallet.mdx",
               "sourceDirName": "using-buidler",
               "slug": "/using-buidler/how-to-import-wallet",
@@ -320,8 +348,8 @@
                 "permalink": "/docs/using-buidler/how-to-create-wallet"
               },
               "next": {
-                "title": "How Buidler Store Your Password",
-                "permalink": "/docs/blog/how-buidler-store-your-password"
+                "title": "Connect via MetaMask and WalletConnect",
+                "permalink": "/docs/using-buidler/connect-via-metamask-walletconnect"
               }
             }
           ],
@@ -389,6 +417,10 @@
                   {
                     "type": "doc",
                     "id": "using-buidler/how-to-import-wallet"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "using-buidler/connect-via-metamask-walletconnect"
                   }
                 ]
               },

@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '8a8'),
+    component: ComponentCreator('/docs', 'b7b'),
     routes: [
       {
         path: '/docs/blog/discord-in-web3',
@@ -91,6 +91,12 @@ export default [
       {
         path: '/docs/governance/overview',
         component: ComponentCreator('/docs/governance/overview', '355'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/using-buidler/connect-via-metamask-walletconnect',
+        component: ComponentCreator('/docs/using-buidler/connect-via-metamask-walletconnect', '78f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
