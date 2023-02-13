@@ -70,8 +70,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How to create wallet with Buidler?",
-                "permalink": "/docs/using-buidler/how-to-create-wallet"
+                "title": "How to import wallet with Buidler?",
+                "permalink": "/docs/using-buidler/how-to-import-wallet"
               },
               "next": {
                 "title": "Discord, Telegram, And The Dark Side Of Web2",
@@ -292,6 +292,34 @@
                 "permalink": "/docs/using-buidler/getting-started"
               },
               "next": {
+                "title": "How to import wallet with Buidler?",
+                "permalink": "/docs/using-buidler/how-to-import-wallet"
+              }
+            },
+            {
+              "unversionedId": "using-buidler/how-to-import-wallet",
+              "id": "using-buidler/how-to-import-wallet",
+              "title": "How to import wallet with Buidler?",
+              "description": "If you already have a wallet, you can import your wallet with a seed phrase or private key on Buidler. The process is straightforward and involves entering your seed phrase or private key into the app.",
+              "source": "@site/docs/using-buidler/how-to-import-wallet.mdx",
+              "sourceDirName": "using-buidler",
+              "slug": "/using-buidler/how-to-import-wallet",
+              "permalink": "/docs/using-buidler/how-to-import-wallet",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/using-buidler/how-to-import-wallet.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "How to import wallet with Buidler?",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to create wallet with Buidler?",
+                "permalink": "/docs/using-buidler/how-to-create-wallet"
+              },
+              "next": {
                 "title": "How Buidler Store Your Password",
                 "permalink": "/docs/blog/how-buidler-store-your-password"
               }
@@ -357,6 +385,10 @@
                   {
                     "type": "doc",
                     "id": "using-buidler/how-to-create-wallet"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "using-buidler/how-to-import-wallet"
                   }
                 ]
               },

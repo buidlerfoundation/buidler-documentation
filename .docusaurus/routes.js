@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '2fd'),
+    component: ComponentCreator('/docs', '8a8'),
     routes: [
       {
         path: '/docs/blog/discord-in-web3',
@@ -103,6 +103,12 @@ export default [
       {
         path: '/docs/using-buidler/how-to-create-wallet',
         component: ComponentCreator('/docs/using-buidler/how-to-create-wallet', '255'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/using-buidler/how-to-import-wallet',
+        component: ComponentCreator('/docs/using-buidler/how-to-import-wallet', '91c'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
