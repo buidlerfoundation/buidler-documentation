@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-ef0": {
+  "/docs-056": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsc-1-a-6ad"
@@ -99,6 +99,10 @@
   "/docs/using-buidler/getting-started-f25": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-using-buidler-getting-startede-05-f24"
+  },
+  "/docs/using-buidler/how-copy-address-8ef": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-using-buidler-how-copy-address-5-fa-9ac"
   },
   "/docs/using-buidler/how-to-create-wallet-255": {
     "__comp": "__comp---theme-doc-item-178-a40",

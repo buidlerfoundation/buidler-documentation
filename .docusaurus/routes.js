@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ef0'),
+    component: ComponentCreator('/docs', '056'),
     routes: [
       {
         path: '/docs/blog/discord-in-web3',
@@ -109,6 +109,12 @@ export default [
       {
         path: '/docs/using-buidler/getting-started',
         component: ComponentCreator('/docs/using-buidler/getting-started', 'f25'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/using-buidler/how-copy-address',
+        component: ComponentCreator('/docs/using-buidler/how-copy-address', '8ef'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -98,6 +98,12 @@
             "label": "Connect via Social Login",
             "href": "/docs/using-buidler/connect-via-social",
             "docId": "using-buidler/connect-via-social"
+          },
+          {
+            "type": "link",
+            "label": "How to copy your wallet address in Buidler?",
+            "href": "/docs/using-buidler/how-copy-address",
+            "docId": "using-buidler/how-copy-address"
           }
         ]
       },
@@ -202,6 +208,12 @@
       "id": "using-buidler/getting-started",
       "title": "Getting Started",
       "description": "Builder is a web3 native platform, meaning your account is identified by your wallet address, not an email address, phone number, or password like in traditional web2 platforms.",
+      "sidebar": "tutorialSidebar"
+    },
+    "using-buidler/how-copy-address": {
+      "id": "using-buidler/how-copy-address",
+      "title": "How to copy your wallet address in Buidler?",
+      "description": "To copy your wallet address on Builder, you will need to follow a few simple steps:",
       "sidebar": "tutorialSidebar"
     },
     "using-buidler/how-to-create-wallet": {
