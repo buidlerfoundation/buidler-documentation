@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '056'),
+    component: ComponentCreator('/docs', '107'),
     routes: [
       {
         path: '/docs/blog/discord-in-web3',
@@ -115,6 +115,12 @@ export default [
       {
         path: '/docs/using-buidler/how-copy-address',
         component: ComponentCreator('/docs/using-buidler/how-copy-address', '8ef'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/using-buidler/how-to-backup-wallet',
+        component: ComponentCreator('/docs/using-buidler/how-to-backup-wallet', '9bd'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -70,8 +70,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How to copy your wallet address in Buidler?",
-                "permalink": "/docs/using-buidler/how-copy-address"
+                "title": "How to backup your wallet",
+                "permalink": "/docs/using-buidler/how-to-backup-wallet"
               },
               "next": {
                 "title": "Discord, Telegram, And The Dark Side Of Web2",
@@ -348,6 +348,34 @@
                 "permalink": "/docs/using-buidler/connect-via-social"
               },
               "next": {
+                "title": "How to backup your wallet",
+                "permalink": "/docs/using-buidler/how-to-backup-wallet"
+              }
+            },
+            {
+              "unversionedId": "using-buidler/how-to-backup-wallet",
+              "id": "using-buidler/how-to-backup-wallet",
+              "title": "How to backup your wallet",
+              "description": "Backing up your private key and seed phrase is a critical step for securing your cryptocurrency assets. A private key is a unique, alphanumeric code that acts as a password for accessing your wallet. The seed phrase, also known as a mnemonic phrase, is a sequence of words that can be used to generate the private key.",
+              "source": "@site/docs/using-buidler/how-to-backup-wallet.mdx",
+              "sourceDirName": "using-buidler",
+              "slug": "/using-buidler/how-to-backup-wallet",
+              "permalink": "/docs/using-buidler/how-to-backup-wallet",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/using-buidler/how-to-backup-wallet.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "title": "How to backup your wallet",
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to copy your wallet address in Buidler?",
+                "permalink": "/docs/using-buidler/how-copy-address"
+              },
+              "next": {
                 "title": "How Buidler Store Your Password",
                 "permalink": "/docs/blog/how-buidler-store-your-password"
               }
@@ -485,6 +513,10 @@
                   {
                     "type": "doc",
                     "id": "using-buidler/how-copy-address"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "using-buidler/how-to-backup-wallet"
                   }
                 ]
               },

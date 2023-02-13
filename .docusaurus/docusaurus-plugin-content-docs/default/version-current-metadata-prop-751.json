@@ -104,6 +104,12 @@
             "label": "How to copy your wallet address in Buidler?",
             "href": "/docs/using-buidler/how-copy-address",
             "docId": "using-buidler/how-copy-address"
+          },
+          {
+            "type": "link",
+            "label": "How to backup your wallet",
+            "href": "/docs/using-buidler/how-to-backup-wallet",
+            "docId": "using-buidler/how-to-backup-wallet"
           }
         ]
       },
@@ -214,6 +220,12 @@
       "id": "using-buidler/how-copy-address",
       "title": "How to copy your wallet address in Buidler?",
       "description": "To copy your wallet address on Builder, you will need to follow a few simple steps:",
+      "sidebar": "tutorialSidebar"
+    },
+    "using-buidler/how-to-backup-wallet": {
+      "id": "using-buidler/how-to-backup-wallet",
+      "title": "How to backup your wallet",
+      "description": "Backing up your private key and seed phrase is a critical step for securing your cryptocurrency assets. A private key is a unique, alphanumeric code that acts as a password for accessing your wallet. The seed phrase, also known as a mnemonic phrase, is a sequence of words that can be used to generate the private key.",
       "sidebar": "tutorialSidebar"
     },
     "using-buidler/how-to-create-wallet": {
