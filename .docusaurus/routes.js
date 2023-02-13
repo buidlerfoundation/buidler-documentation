@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd79'),
+    component: ComponentCreator('/docs', 'baf'),
     routes: [
       {
         path: '/docs/blog/discord-in-web3',
@@ -55,18 +55,6 @@ export default [
       {
         path: '/docs/blog/how-buidler-store-your-password',
         component: ComponentCreator('/docs/blog/how-buidler-store-your-password', 'd4e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/for-community-members/how-to-join-a-community',
-        component: ComponentCreator('/docs/for-community-members/how-to-join-a-community', 'a11'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/for-community-owner/setup-community',
-        component: ComponentCreator('/docs/for-community-owner/setup-community', 'c25'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

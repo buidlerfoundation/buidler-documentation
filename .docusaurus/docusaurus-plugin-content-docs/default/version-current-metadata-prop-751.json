@@ -37,34 +37,6 @@
       },
       {
         "type": "category",
-        "label": "Community Owner",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Setup new community",
-            "href": "/docs/for-community-owner/setup-community",
-            "docId": "for-community-owner/setup-community"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Community Members",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "How to join a community",
-            "href": "/docs/for-community-members/how-to-join-a-community",
-            "docId": "for-community-members/how-to-join-a-community"
-          }
-        ]
-      },
-      {
-        "type": "category",
         "label": "Using Buidler",
         "collapsible": true,
         "collapsed": true,
@@ -101,7 +73,7 @@
           },
           {
             "type": "link",
-            "label": "Copy wallet address",
+            "label": "Copy Wallet Address",
             "href": "/docs/using-buidler/how-copy-address",
             "docId": "using-buidler/how-copy-address"
           },
@@ -154,18 +126,6 @@
       "description": "<meta",
       "sidebar": "tutorialSidebar"
     },
-    "for-community-members/how-to-join-a-community": {
-      "id": "for-community-members/how-to-join-a-community",
-      "title": "How to join a community",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "for-community-owner/setup-community": {
-      "id": "for-community-owner/setup-community",
-      "title": "Setup new community",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
     "general/roadmap": {
       "id": "general/roadmap",
       "title": "Roadmap",
@@ -204,7 +164,7 @@
     },
     "using-buidler/how-copy-address": {
       "id": "using-buidler/how-copy-address",
-      "title": "Copy wallet address",
+      "title": "Copy Wallet Address",
       "description": "To copy your wallet address on Builder, you will need to follow a few simple steps:",
       "sidebar": "tutorialSidebar"
     },
@@ -223,7 +183,7 @@
     "using-buidler/how-to-import-wallet": {
       "id": "using-buidler/how-to-import-wallet",
       "title": "Import a Wallet",
-      "description": "If you already have a wallet, you can import it to Buidler using your seed phrase or private key. This will enable you to use your existing wallet to access the Buidler platform.",
+      "description": "If you already have a wallet, you can import it to Buidler using your seed phrase or private key. Download the Buidler app on iOS or macOS and follow the instructions to import your wallet.",
       "sidebar": "tutorialSidebar"
     },
     "using-buidler/how-to-join-community": {

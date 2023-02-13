@@ -75,62 +75,6 @@
               }
             },
             {
-              "unversionedId": "for-community-members/how-to-join-a-community",
-              "id": "for-community-members/how-to-join-a-community",
-              "title": "How to join a community",
-              "description": "",
-              "source": "@site/docs/for-community-members/how-to-join-a-community.md",
-              "sourceDirName": "for-community-members",
-              "slug": "/for-community-members/how-to-join-a-community",
-              "permalink": "/docs/for-community-members/how-to-join-a-community",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/for-community-members/how-to-join-a-community.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "How to join a community",
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Setup new community",
-                "permalink": "/docs/for-community-owner/setup-community"
-              },
-              "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/using-buidler/getting-started"
-              }
-            },
-            {
-              "unversionedId": "for-community-owner/setup-community",
-              "id": "for-community-owner/setup-community",
-              "title": "Setup new community",
-              "description": "",
-              "source": "@site/docs/for-community-owner/setup-community.md",
-              "sourceDirName": "for-community-owner",
-              "slug": "/for-community-owner/setup-community",
-              "permalink": "/docs/for-community-owner/setup-community",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/for-community-owner/setup-community.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "title": "Setup new community",
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tokenomic",
-                "permalink": "/docs/general/tokenomic"
-              },
-              "next": {
-                "title": "How to join a community",
-                "permalink": "/docs/for-community-members/how-to-join-a-community"
-              }
-            },
-            {
               "unversionedId": "general/roadmap",
               "id": "general/roadmap",
               "title": "Roadmap",
@@ -182,8 +126,8 @@
                 "permalink": "/docs/general/roadmap"
               },
               "next": {
-                "title": "Setup new community",
-                "permalink": "/docs/for-community-owner/setup-community"
+                "title": "Getting Started",
+                "permalink": "/docs/using-buidler/getting-started"
               }
             },
             {
@@ -264,7 +208,7 @@
                 "permalink": "/docs/using-buidler/connect-via-metamask-walletconnect"
               },
               "next": {
-                "title": "Copy wallet address",
+                "title": "Copy Wallet Address",
                 "permalink": "/docs/using-buidler/how-copy-address"
               }
             },
@@ -288,8 +232,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How to join a community",
-                "permalink": "/docs/for-community-members/how-to-join-a-community"
+                "title": "Tokenomic",
+                "permalink": "/docs/general/tokenomic"
               },
               "next": {
                 "title": "Create a Wallet",
@@ -299,7 +243,7 @@
             {
               "unversionedId": "using-buidler/how-copy-address",
               "id": "using-buidler/how-copy-address",
-              "title": "Copy wallet address",
+              "title": "Copy Wallet Address",
               "description": "To copy your wallet address on Builder, you will need to follow a few simple steps:",
               "source": "@site/docs/using-buidler/how-copy-address.mdx",
               "sourceDirName": "using-buidler",
@@ -311,7 +255,7 @@
               "version": "current",
               "sidebarPosition": 6,
               "frontMatter": {
-                "title": "Copy wallet address",
+                "title": "Copy Wallet Address",
                 "sidebar_position": 6
               },
               "sidebar": "tutorialSidebar",
@@ -344,7 +288,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Copy wallet address",
+                "title": "Copy Wallet Address",
                 "permalink": "/docs/using-buidler/how-copy-address"
               },
               "next": {
@@ -384,7 +328,7 @@
               "unversionedId": "using-buidler/how-to-import-wallet",
               "id": "using-buidler/how-to-import-wallet",
               "title": "Import a Wallet",
-              "description": "If you already have a wallet, you can import it to Buidler using your seed phrase or private key. This will enable you to use your existing wallet to access the Buidler platform.",
+              "description": "If you already have a wallet, you can import it to Buidler using your seed phrase or private key. Download the Buidler app on iOS or macOS and follow the instructions to import your wallet.",
               "source": "@site/docs/using-buidler/how-to-import-wallet.mdx",
               "sourceDirName": "using-buidler",
               "slug": "/using-buidler/how-to-import-wallet",
@@ -457,30 +401,6 @@
                   {
                     "type": "doc",
                     "id": "general/tokenomic"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Community Owner",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "for-community-owner/setup-community"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Community Members",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "for-community-members/how-to-join-a-community"
                   }
                 ]
               },
