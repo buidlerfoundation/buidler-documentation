@@ -70,8 +70,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Connect via MetaMask and WalletConnect",
-                "permalink": "/docs/using-buidler/connect-via-metamask-walletconnect"
+                "title": "Connect via Social Login",
+                "permalink": "/docs/using-buidler/connect-via-social"
               },
               "next": {
                 "title": "Discord, Telegram, And The Dark Side Of Web2",
@@ -264,6 +264,34 @@
                 "permalink": "/docs/using-buidler/how-to-import-wallet"
               },
               "next": {
+                "title": "Connect via Social Login",
+                "permalink": "/docs/using-buidler/connect-via-social"
+              }
+            },
+            {
+              "unversionedId": "using-buidler/connect-via-social",
+              "id": "using-buidler/connect-via-social",
+              "title": "Connect via Social Login",
+              "description": "Getting started with Buidler is now easier with the integration of Web3Auth. You can now log in to your Buidler account using your existing social accounts like Google, Facebook, Apple, and Discord.",
+              "source": "@site/docs/using-buidler/connect-via-social.mdx",
+              "sourceDirName": "using-buidler",
+              "slug": "/using-buidler/connect-via-social",
+              "permalink": "/docs/using-buidler/connect-via-social",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/using-buidler/connect-via-social.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Connect via Social Login",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Connect via MetaMask and WalletConnect",
+                "permalink": "/docs/using-buidler/connect-via-metamask-walletconnect"
+              },
+              "next": {
                 "title": "How Buidler Store Your Password",
                 "permalink": "/docs/blog/how-buidler-store-your-password"
               }
@@ -421,6 +449,10 @@
                   {
                     "type": "doc",
                     "id": "using-buidler/connect-via-metamask-walletconnect"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "using-buidler/connect-via-social"
                   }
                 ]
               },

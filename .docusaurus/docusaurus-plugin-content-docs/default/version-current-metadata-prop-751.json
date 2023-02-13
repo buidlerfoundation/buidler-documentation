@@ -92,6 +92,12 @@
             "label": "Connect via MetaMask and WalletConnect",
             "href": "/docs/using-buidler/connect-via-metamask-walletconnect",
             "docId": "using-buidler/connect-via-metamask-walletconnect"
+          },
+          {
+            "type": "link",
+            "label": "Connect via Social Login",
+            "href": "/docs/using-buidler/connect-via-social",
+            "docId": "using-buidler/connect-via-social"
           }
         ]
       },
@@ -184,6 +190,12 @@
       "id": "using-buidler/connect-via-metamask-walletconnect",
       "title": "Connect via MetaMask and WalletConnect",
       "description": "Currently, Buidler only supports connecting through MetaMask and WalletConnect on the browser. This feature enables you to conveniently access and manage your crypto assets within the Buidler platform.",
+      "sidebar": "tutorialSidebar"
+    },
+    "using-buidler/connect-via-social": {
+      "id": "using-buidler/connect-via-social",
+      "title": "Connect via Social Login",
+      "description": "Getting started with Buidler is now easier with the integration of Web3Auth. You can now log in to your Buidler account using your existing social accounts like Google, Facebook, Apple, and Discord.",
       "sidebar": "tutorialSidebar"
     },
     "using-buidler/getting-started": {
