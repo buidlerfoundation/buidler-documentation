@@ -177,7 +177,7 @@
     "using-buidler/how-to-create-wallet": {
       "id": "using-buidler/how-to-create-wallet",
       "title": "How to create wallet with Buidler?",
-      "description": "Buidler also provides a secure and easy-to-use crypto wallet that enables you to manage your digital assets with ease.",
+      "description": "Builder is a web3 native platform that allows you to securely store, send, and receive tokens, NFTs, and cryptocurrencies. In other words, Builder is just a crypto wallet. Just download the Buidler app on iOS or macOS and follow these steps to make a new wallet:",
       "sidebar": "tutorialSidebar"
     }
   }
