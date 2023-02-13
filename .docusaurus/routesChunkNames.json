@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-baf": {
+  "/docs-dc3": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsc-1-a-6ad"
@@ -64,6 +64,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-blog-how-buidler-store-your-password-1-da-f2e"
   },
+  "/docs/community/how-to-join-community-a43": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-community-how-to-join-communityb-50-2f3"
+  },
   "/docs/general/roadmap-021": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-general-roadmape-54-910"
@@ -76,37 +80,33 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-general-what-is-buidler-570-684"
   },
-  "/docs/using-buidler/connect-via-metamask-walletconnect-78f": {
+  "/docs/wallet/connect-via-metamask-walletconnect-9cf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-using-buidler-connect-via-metamask-walletconnect-7-cd-cd8"
+    "content": "content---docs-wallet-connect-via-metamask-walletconnectdce-a04"
   },
-  "/docs/using-buidler/connect-via-social-37b": {
+  "/docs/wallet/connect-via-social-681": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-using-buidler-connect-via-social-47-c-147"
+    "content": "content---docs-wallet-connect-via-socialac-6-002"
   },
-  "/docs/using-buidler/getting-started-f25": {
+  "/docs/wallet/getting-started-95d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-using-buidler-getting-startede-05-f24"
+    "content": "content---docs-wallet-getting-startedc-2-c-9ed"
   },
-  "/docs/using-buidler/how-copy-address-8ef": {
+  "/docs/wallet/how-copy-address-b71": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-using-buidler-how-copy-address-5-fa-9ac"
+    "content": "content---docs-wallet-how-copy-addresseca-3a2"
   },
-  "/docs/using-buidler/how-to-backup-wallet-9bd": {
+  "/docs/wallet/how-to-backup-wallet-2fa": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-using-buidler-how-to-backup-wallet-656-c5f"
+    "content": "content---docs-wallet-how-to-backup-walletd-5-d-b77"
   },
-  "/docs/using-buidler/how-to-create-wallet-255": {
+  "/docs/wallet/how-to-create-wallet-f56": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-using-buidler-how-to-create-walletd-4-c-c79"
+    "content": "content---docs-wallet-how-to-create-walleta-0-e-d58"
   },
-  "/docs/using-buidler/how-to-import-wallet-91c": {
+  "/docs/wallet/how-to-import-wallet-31d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-using-buidler-how-to-import-walletc-4-b-981"
-  },
-  "/docs/using-buidler/how-to-join-community-9c7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-using-buidler-how-to-join-community-67-d-684"
+    "content": "content---docs-wallet-how-to-import-wallet-2-b-6-6ec"
   },
   "/-d45": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

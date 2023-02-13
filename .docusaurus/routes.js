@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'baf'),
+    component: ComponentCreator('/docs', 'dc3'),
     routes: [
       {
         path: '/docs/blog/discord-in-web3',
@@ -55,6 +55,12 @@ export default [
       {
         path: '/docs/blog/how-buidler-store-your-password',
         component: ComponentCreator('/docs/blog/how-buidler-store-your-password', 'd4e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/community/how-to-join-community',
+        component: ComponentCreator('/docs/community/how-to-join-community', 'a43'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -77,50 +83,44 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/using-buidler/connect-via-metamask-walletconnect',
-        component: ComponentCreator('/docs/using-buidler/connect-via-metamask-walletconnect', '78f'),
+        path: '/docs/wallet/connect-via-metamask-walletconnect',
+        component: ComponentCreator('/docs/wallet/connect-via-metamask-walletconnect', '9cf'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/using-buidler/connect-via-social',
-        component: ComponentCreator('/docs/using-buidler/connect-via-social', '37b'),
+        path: '/docs/wallet/connect-via-social',
+        component: ComponentCreator('/docs/wallet/connect-via-social', '681'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/using-buidler/getting-started',
-        component: ComponentCreator('/docs/using-buidler/getting-started', 'f25'),
+        path: '/docs/wallet/getting-started',
+        component: ComponentCreator('/docs/wallet/getting-started', '95d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/using-buidler/how-copy-address',
-        component: ComponentCreator('/docs/using-buidler/how-copy-address', '8ef'),
+        path: '/docs/wallet/how-copy-address',
+        component: ComponentCreator('/docs/wallet/how-copy-address', 'b71'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/using-buidler/how-to-backup-wallet',
-        component: ComponentCreator('/docs/using-buidler/how-to-backup-wallet', '9bd'),
+        path: '/docs/wallet/how-to-backup-wallet',
+        component: ComponentCreator('/docs/wallet/how-to-backup-wallet', '2fa'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/using-buidler/how-to-create-wallet',
-        component: ComponentCreator('/docs/using-buidler/how-to-create-wallet', '255'),
+        path: '/docs/wallet/how-to-create-wallet',
+        component: ComponentCreator('/docs/wallet/how-to-create-wallet', 'f56'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/using-buidler/how-to-import-wallet',
-        component: ComponentCreator('/docs/using-buidler/how-to-import-wallet', '91c'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/using-buidler/how-to-join-community',
-        component: ComponentCreator('/docs/using-buidler/how-to-join-community', '9c7'),
+        path: '/docs/wallet/how-to-import-wallet',
+        component: ComponentCreator('/docs/wallet/how-to-import-wallet', '31d'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
