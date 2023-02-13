@@ -6,7 +6,7 @@
     },
     "content": "393be207"
   },
-  "/docs-24d": {
+  "/docs-20d": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "c1a0c411"
@@ -29,10 +29,6 @@
     "__comp": "17896441",
     "content": "cf8cfd01"
   },
-  "/docs/for-developers/developer-8e9": {
-    "__comp": "17896441",
-    "content": "b876b4f5"
-  },
   "/docs/general/roadmap-021": {
     "__comp": "17896441",
     "content": "e540e015"
@@ -48,6 +44,14 @@
   "/docs/governance/overview-355": {
     "__comp": "17896441",
     "content": "db3bc590"
+  },
+  "/docs/using-buidler/getting-started-f25": {
+    "__comp": "17896441",
+    "content": "e05c03ae"
+  },
+  "/docs/using-buidler/how-to-create-wallet-7bb": {
+    "__comp": "17896441",
+    "content": "c293a047"
   },
   "/-d45": {
     "__comp": "c4f5d8e4",

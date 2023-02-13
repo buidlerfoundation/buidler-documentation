@@ -65,15 +65,21 @@
       },
       {
         "type": "category",
-        "label": "Developers",
+        "label": "Using Buidler",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "For developers",
-            "href": "/docs/for-developers/developer",
-            "docId": "for-developers/developer"
+            "label": "Getting Started",
+            "href": "/docs/using-buidler/getting-started",
+            "docId": "using-buidler/getting-started"
+          },
+          {
+            "type": "link",
+            "label": "How to create wallet with Buidler?",
+            "href": "/docs/using-buidler/how-to-create-wallet",
+            "docId": "using-buidler/how-to-create-wallet"
           }
         ]
       },
@@ -123,7 +129,7 @@
     "blog/how-buidler-store-your-password": {
       "id": "blog/how-buidler-store-your-password",
       "title": "How Buidler Store Your Password",
-      "description": "Builder is a perfectly combining social messaging and crypto wallet. In addition to messaging, you can easily store, transfer and receive tokens and NFTs.",
+      "description": "<meta",
       "sidebar": "tutorialSidebar"
     },
     "for-community-members/how-to-join-a-community": {
@@ -135,12 +141,6 @@
     "for-community-owner/setup-community": {
       "id": "for-community-owner/setup-community",
       "title": "Setup new community",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "for-developers/developer": {
-      "id": "for-developers/developer",
-      "title": "For developers",
       "description": "",
       "sidebar": "tutorialSidebar"
     },
@@ -166,6 +166,18 @@
       "id": "governance/overview",
       "title": "Overview",
       "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "using-buidler/getting-started": {
+      "id": "using-buidler/getting-started",
+      "title": "Getting Started",
+      "description": "Builder is a web3 native platform, meaning your account is identified by your wallet address, not an email address, phone number, or password like in traditional web2 platforms.",
+      "sidebar": "tutorialSidebar"
+    },
+    "using-buidler/how-to-create-wallet": {
+      "id": "using-buidler/how-to-create-wallet",
+      "title": "How to create wallet with Buidler?",
+      "description": "Buidler also provides a secure and easy-to-use crypto wallet that enables you to manage your digital assets with ease.",
       "sidebar": "tutorialSidebar"
     }
   }

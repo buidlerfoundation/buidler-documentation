@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '24d'),
+    component: ComponentCreator('/docs', '20d'),
     routes: [
       {
         path: '/docs/blog/discord-in-web3',
@@ -36,12 +36,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/for-developers/developer',
-        component: ComponentCreator('/docs/for-developers/developer', '8e9'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/general/roadmap',
         component: ComponentCreator('/docs/general/roadmap', '021'),
         exact: true,
@@ -62,6 +56,18 @@ export default [
       {
         path: '/docs/governance/overview',
         component: ComponentCreator('/docs/governance/overview', '355'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/using-buidler/getting-started',
+        component: ComponentCreator('/docs/using-buidler/getting-started', 'f25'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/using-buidler/how-to-create-wallet',
+        component: ComponentCreator('/docs/using-buidler/how-to-create-wallet', '7bb'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
