@@ -20,24 +20,24 @@
           "contentPathLocalized": "/Users/mac/buidler-documentation/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "blog/discord-in-web3",
-              "id": "blog/discord-in-web3",
-              "title": "Discord, Telegram, And The Dark Side Of Web2",
-              "description": "Web3 is forging a new path, radical shifting from the centralized model to shared ownership and decentralized decision-making. And when the web3 community continues to evolve and mature, one thing becomes clear: Discord and Telegram just don't fit in anymore.",
-              "source": "@site/docs/blog/discord-in-web3.mdx",
+              "unversionedId": "blog/discord-telegram-the-bottleneck-for-growth-in-web3",
+              "id": "blog/discord-telegram-the-bottleneck-for-growth-in-web3",
+              "title": "Discord, Telegram: The Bottleneck For Growth In Web3",
+              "description": "hen building a web3 community, Discord, and Telegram are often the first platforms that come to mind. They offer a way for people to connect and communicate in real time. Both are popular choices for fostering relationships and building a community. However, Web3 is forging a new path, radical shifting from the centralized model to shared ownership and decentralized decision-making. And when the web3 community continues to evolve and mature, one thing becomes clear: Discord and Telegram just don't fit in anymore. So, let's explore the problems these platforms face and the exciting possibilities of a new era beyond Discord and Telegram.",
+              "source": "@site/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3.mdx",
               "sourceDirName": "blog",
-              "slug": "/blog/discord-in-web3",
-              "permalink": "/docs/blog/discord-in-web3",
+              "slug": "/blog/discord-telegram-the-bottleneck-for-growth-in-web3",
+              "permalink": "/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog/discord-in-web3.mdx",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "title": "Discord, Telegram, And The Dark Side Of Web2",
+                "title": "Discord, Telegram: The Bottleneck For Growth In Web3",
                 "sidebar_position": 2,
                 "image": "https://docs.buidler.app/img/blog/discord-telegram-and-the-dark-side-of-web2.png",
-                "description": "Web3 is forging a new path, radical shifting from the centralized model to shared ownership and decentralized decision-making. And when the web3 community continues to evolve and mature, one thing becomes clear: Discord and Telegram just don't fit in anymore."
+                "description": "hen building a web3 community, Discord, and Telegram are often the first platforms that come to mind. They offer a way for people to connect and communicate in real time. Both are popular choices for fostering relationships and building a community. However, Web3 is forging a new path, radical shifting from the centralized model to shared ownership and decentralized decision-making. And when the web3 community continues to evolve and mature, one thing becomes clear: Discord and Telegram just don't fit in anymore. So, let's explore the problems these platforms face and the exciting possibilities of a new era beyond Discord and Telegram."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -70,8 +70,8 @@
                 "permalink": "/docs/community/how-to-join-community"
               },
               "next": {
-                "title": "Discord, Telegram, And The Dark Side Of Web2",
-                "permalink": "/docs/blog/discord-in-web3"
+                "title": "Discord, Telegram: The Bottleneck For Growth In Web3",
+                "permalink": "/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3"
               }
             },
             {
@@ -464,7 +464,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "blog/discord-in-web3"
+                    "id": "blog/discord-telegram-the-bottleneck-for-growth-in-web3"
                   }
                 ]
               }

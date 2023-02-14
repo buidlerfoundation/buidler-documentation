@@ -87,9 +87,10 @@
 .join-community {
   background-color: var(--join-community-background);
   color: var(--join-community-color);
-  padding: 8px 15px;
+  padding: 6px 10px;
   border-radius: 5px;
   font-weight: 700;
+  margin-right: -22px;
 }
 
 .join-community:hover{
@@ -100,6 +101,7 @@
 .menu__link--sublist {
   color:  var(--ifm-color-primary-dark);
   font-weight: 600;
+  font-size: 16px;
 }
 
 .table-of-contents__left-border {
@@ -114,8 +116,9 @@
 }
 
 .menu__link {
-  font-weight: 500;
+  font-weight: 600;
   line-height: 26px;
+  font-size: 16px;
 }
 
 .menu__list .menu__list {
@@ -186,6 +189,7 @@ img {
 body {
   color: #202020;
 }
+
 .table-of-contents__link {
   font-weight: 500;
   color: var(--ifm-menu-color);
@@ -197,7 +201,7 @@ body {
 
 .markdown {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a {
@@ -223,6 +227,7 @@ a:hover{
   font-size: 1rem;
   color: #e8e8e8;
 }
+
 .breadcrumbs__item {
   font-weight: 500;
 }
