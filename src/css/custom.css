@@ -90,7 +90,7 @@
   padding: 6px 10px;
   border-radius: 5px;
   font-weight: 700;
-  margin-right: -22px;
+  margin-right: -23px;
 }
 
 .join-community:hover{
@@ -269,6 +269,12 @@ a:hover{
   .container {
     max-width: 100%!important;
   }
+  .join-community {
+    margin-right: 0px;
+  }
+  .clean-btn {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -286,6 +292,9 @@ a:hover{
   }
   .container {
     max-width: 100%!important;
+  }
+  .join-community {
+    margin-right: 0px;
   }
 }
 
