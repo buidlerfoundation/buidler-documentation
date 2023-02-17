@@ -1,0 +1,28 @@
+{
+  "unversionedId": "general/roadmap",
+  "id": "general/roadmap",
+  "title": "Roadmap",
+  "description": "Q4/2021",
+  "source": "@site/docs/general/roadmap.md",
+  "sourceDirName": "general",
+  "slug": "/general/roadmap",
+  "permalink": "/docs/general/roadmap",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/general/roadmap.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Roadmap",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "What is Buidler",
+    "permalink": "/docs/general/what-is-buidler"
+  },
+  "next": {
+    "title": "Tokenomic",
+    "permalink": "/docs/general/tokenomic"
+  }
+}
