@@ -42,10 +42,12 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - id: 'compute-ssh'
+    - name: Access deployment server
+      id: 'compute-ssh'
       uses: 'google-github-actions/ssh-compute@v0'
       with:
-        instance_name: 'example-instance'
-        zone: 'us-central1-a'
+        project_id: buidler
+        instance_name: buidler-production
+        zone: 'asia-southeast1-b'
         ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
         command: 'pwd'
