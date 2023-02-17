@@ -7,6 +7,8 @@
 #   "$@"
 
 # sudo docker compose -f compose.prod.yml up -d
+echo $1
 whoami
 pwd
+docker ps
 # sudo pwd
