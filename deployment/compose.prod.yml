@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  app:
+    image: buidler/buidler-documentation:${TAGS}
+    expose:
+      - "4000"
+    restart: unless-stopped
+    environment:
+      - VIRTUAL_HOST=docs.buidler.app
+      - VIRTUAL_PORT=4000
+      - LETSENCRYPT_HOST=docs.buidler.app
+      - LETSENCRYPT_EMAIL="test.tai.htm@gmail.com"
+networks:
+  default:  
+    name: nginx-proxy
+    external: true

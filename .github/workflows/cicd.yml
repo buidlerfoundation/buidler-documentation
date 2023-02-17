@@ -38,6 +38,8 @@ jobs:
         push: true
         tags: ${{ steps.meta.outputs.tags }}
         # labels: ${{ steps.meta.outputs.labels }}
+    outputs:
+      tags: ${{ steps.meta.outputs.tags }}
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -59,7 +61,7 @@ jobs:
         zone: 'asia-southeast1-b'
         ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
         # command: 'pwd'
-        script: '${{ github.workspace }}/script/run.sh'
+        script: '${{ github.workspace }}/deployment/prod.sh ${{ needs.build.outputs.tags }}'
 
     - name: Access logs
       id: 'logs'
