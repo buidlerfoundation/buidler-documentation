@@ -8,7 +8,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-
     - name: Information
       run: |
         echo "The commit SHA is: $GITHUB_SHA"
@@ -39,4 +38,11 @@ jobs:
         push: true
         tags: ${{ steps.meta.outputs.tags }}
         # labels: ${{ steps.meta.outputs.labels }}
-        
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Information
+      run: |
+        echo "The commit SHA is: $GITHUB_SHA"
+        echo "The run id is: $GITHUB_RUN_ID" 
+        echo "The GitHub Actor's username is: $GITHUB_ACTOR"
