@@ -55,11 +55,10 @@ jobs:
       id: 'compute-ssh'
       uses: 'google-github-actions/ssh-compute@v0'
       with:
-        project_id: buidler
         instance_name: buidler-production
         zone: 'asia-southeast1-b'
         ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
-        command: 'pwd && sudo -i && pwd'
+        command: 'pwd'
 
     - name: Access logs
       id: 'logs'
