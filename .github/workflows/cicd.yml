@@ -61,7 +61,7 @@ jobs:
         zone: 'asia-southeast1-b'
         ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
         # command: 'pwd'
-        script: '${{ github.workspace }}/deployment/prod.sh ${{ needs.build.outputs.tags }}'
+        script: '${{ github.workspace }}/deployment/prod.sh'
 
     - name: Access logs
       id: 'logs'
