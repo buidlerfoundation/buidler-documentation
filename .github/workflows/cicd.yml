@@ -42,6 +42,9 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
     - name: Auth deployment server
       id: 'auth'
       uses: 'google-github-actions/auth@v0'
@@ -56,6 +59,7 @@ jobs:
         zone: 'asia-southeast1-b'
         ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
         command: 'pwd && sudo -i && pwd'
+        
     - name: Access logs
       id: 'logs'
       run: |-
