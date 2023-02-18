@@ -1,7 +1,7 @@
 #!/bin/bash
 
 _dockerDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-_tags="$1"
+_tags="$0"
 
 
 exec "TAGS=$_tags" docker compose \
