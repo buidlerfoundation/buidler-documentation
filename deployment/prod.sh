@@ -4,4 +4,4 @@
 # exec TAGS="$1" docker compose \
 #   -f "$_dockerDir/compose.prod.yml" \
 
-exec echo "$1"
+exec echo "aaaa"
