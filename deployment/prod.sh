@@ -1,9 +1,9 @@
 #!/bin/bash
 
 _dockerDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-_tags="$0"
 
+# exec docker compose -p buidler-documentation-prod \
+#   -f "$_dockerDir/compose.prod.yml" \
+#   "$@"
 
-exec "TAGS=$_tags" docker compose \
-  -f "$_dockerDir/compose.prod.yml" \
-  "$@"
+TAGS=$1 docker-compose -f "$_dockerDir/compose.prod.yml" up -d
