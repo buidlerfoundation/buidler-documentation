@@ -46,7 +46,7 @@ jobs:
     steps:
       - name: Information
         run: |
-          echo "The tags value is: ${{ needs.build.outputs.tags }}"
+          echo "The tags value is: sha-$GITHUB_SHA"
 
       - name: Checkout
         uses: actions/checkout@v3
