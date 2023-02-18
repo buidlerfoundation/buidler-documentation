@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     outputs:
-      tags: ${{ steps.build-tags.outputs.tags }}
+      tags: ${{ steps.get-build-tags.outputs.tags }}
     steps:
       - name: Information
         run: |
@@ -42,8 +42,8 @@ jobs:
           # labels: ${{ steps.meta.outputs.labels }}
       
       - name: Get tags
-        id: build-tags
-        run: echo "tags=sha-$GITHUB_SHA" >> "$GITHUB_OUTPUT"
+        id: get-build-tags
+        run: echo "tags=sha-$GITHUB_SHA"
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -69,9 +69,7 @@ jobs:
           instance_name: buidler-production
           zone: 'asia-southeast1-b'
           ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
-          # command: './buidler-documentation/deployment/prod.sh ${{ needs.build.outputs.tags }} up -d'
           command: './buidler-documentation/deployment/prod.sh ${{needs.build.outputs.tags}} up -d'
-          # script: '${{ github.workspace }}/buidler-documentation/deployment/prod.sh sha-$GITHUB_SHA up -d'
 
       - name: Access logs
         id: 'logs'
