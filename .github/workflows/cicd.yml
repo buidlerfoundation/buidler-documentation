@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     outputs:
-      tags: ${{ steps.meta.outputs.tags }}
+      tags: ${{ steps.build-tags.outputs.tags }}
     steps:
       - name: Information
         run: |
@@ -40,10 +40,18 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           # labels: ${{ steps.meta.outputs.labels }}
+      
+      - name: Get tags
+        id: build-tags
+        run: echo "tags=${{ steps.meta.outputs.tags }}" >> "$GITHUB_OUTPUT"
   deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - env:
+          OUTPUT1: ${{needs.build.outputs.tags}}
+        run: echo "$OUTPUT1"
+
       - name: Information
         run: |
           echo "The tags value is: sha-$GITHUB_SHA"
