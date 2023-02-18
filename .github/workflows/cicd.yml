@@ -44,6 +44,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Information
+        run: |
+          echo "The tags value is: ${{ needs.build.outputs.tags }}"
+
       - name: Checkout
         uses: actions/checkout@v3
 
@@ -54,6 +58,8 @@ jobs:
           credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
 
       - name: Access deployment server
+        env:
+          - TAGS: ${{ needs.build.outputs.tags }}
         id: 'compute-ssh'
         uses: 'google-github-actions/ssh-compute@v0'
         with:
@@ -61,7 +67,7 @@ jobs:
           zone: 'asia-southeast1-b'
           ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
           # command: 'pwd'
-          script: '${{ github.workspace }}/deployment/prod.sh ${{ needs.build.outputs.tags }} up -d'
+          script: '${{ github.workspace }}/deployment/prod.sh $TAGS up -d'
 
       - name: Access logs
         id: 'logs'
