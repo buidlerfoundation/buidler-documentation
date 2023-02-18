@@ -43,7 +43,7 @@ jobs:
       
       - name: Get tags
         id: get-build-tags
-        run: echo "tags=sha-$GITHUB_SHA"
+        run: echo "tags=sha-$GITHUB_SHA" >> "$GITHUB_OUTPUT"
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -69,7 +69,9 @@ jobs:
           instance_name: buidler-production
           zone: 'asia-southeast1-b'
           ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
+          # command: './buidler-documentation/deployment/prod.sh ${{ needs.build.outputs.tags }} up -d'
           command: './buidler-documentation/deployment/prod.sh ${{needs.build.outputs.tags}} up -d'
+          # script: '${{ github.workspace }}/buidler-documentation/deployment/prod.sh sha-$GITHUB_SHA up -d'
 
       - name: Access logs
         id: 'logs'
