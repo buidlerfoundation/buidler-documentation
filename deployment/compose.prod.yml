@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   app:
-    image: buidler/buidler-documentation:${TAGS}
+    image: taihtm/buidler-documentation:${TAGS}
     expose:
       - "4000"
     restart: unless-stopped
