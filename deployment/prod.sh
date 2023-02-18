@@ -6,3 +6,4 @@ _tags=$1
 
 exec TAGS=_tags docker compose \
   -f "$_dockerDir/compose.prod.yml" \
+  "$@"
