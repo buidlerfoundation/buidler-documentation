@@ -48,13 +48,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - env:
-          OUTPUT1: ${{needs.build.outputs.tags}}
-        run: echo "$OUTPUT1"
-
       - name: Information
         run: |
           echo "The tags value is: sha-$GITHUB_SHA"
+          echo "The tags output value is: ${{needs.build.outputs.tags}}"
 
       - name: Checkout
         uses: actions/checkout@v3
@@ -73,7 +70,7 @@ jobs:
           zone: 'asia-southeast1-b'
           ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
           # command: './buidler-documentation/deployment/prod.sh ${{ needs.build.outputs.tags }} up -d'
-          command: './buidler-documentation/deployment/prod.sh "sha-$GITHUB_SHA" up -d'
+          command: './buidler-documentation/deployment/prod.sh ${{needs.build.outputs.tags}} up -d'
           # script: '${{ github.workspace }}/buidler-documentation/deployment/prod.sh sha-$GITHUB_SHA up -d'
 
       - name: Access logs
