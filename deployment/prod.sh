@@ -6,5 +6,6 @@ _dockerDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 #   -f "$_dockerDir/compose.prod.yml" \
 #   "$@"
 echo $1
+echo "$_dockerDir/compose.prod.yml"
 export TAGS=$1
-docker compose -f "$_dockerDir/compose.prod.yml" up -d
+# docker compose -f "$_dockerDir/compose.prod.yml" up -d
