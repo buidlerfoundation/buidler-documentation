@@ -43,7 +43,7 @@ jobs:
       
       - name: Get tags
         id: build-tags
-        run: echo "tags=${{ steps.meta.outputs.tags }}" >> "$GITHUB_OUTPUT"
+        run: echo "tags=sha-$GITHUB_SHA" >> "$GITHUB_OUTPUT"
   deploy:
     needs: build
     runs-on: ubuntu-latest
