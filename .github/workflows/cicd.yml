@@ -64,8 +64,8 @@ jobs:
           instance_name: buidler-production
           zone: 'asia-southeast1-b'
           ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
-          # command: 'pwd'
-          script: '${{ github.workspace }}/deployment/prod.sh aaa'
+          command: 'pwd && ls'
+          # script: '${{ github.workspace }}/deployment/prod.sh aaa'
 
       - name: Access logs
         id: 'logs'
