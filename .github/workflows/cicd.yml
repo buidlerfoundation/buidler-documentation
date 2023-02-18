@@ -43,7 +43,7 @@ jobs:
       
       - name: Get tags
         id: get-build-tags
-        run: echo "tags=sha-$GITHUB_SHA"
+        run: echo "tags=sha-$GITHUB_SHA" >> "$GITHUB_OUTPUT"
   deploy:
     needs: build
     runs-on: ubuntu-latest
