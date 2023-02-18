@@ -3,7 +3,7 @@
 _dockerDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 _tags=$1
 
-echo $_tags
+# echo $_tags
 echo $_dockerDir
 
 # export TAGS=$_tags
