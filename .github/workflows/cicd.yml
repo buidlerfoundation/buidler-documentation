@@ -50,7 +50,6 @@ jobs:
     steps:
       - name: Information
         run: |
-          echo "The tags value is: sha-$GITHUB_SHA"
           echo "The tags output value is: ${{needs.build.outputs.tags}}"
 
       - name: Checkout
@@ -69,9 +68,7 @@ jobs:
           instance_name: buidler-production
           zone: 'asia-southeast1-b'
           ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
-          # command: './buidler-documentation/deployment/prod.sh ${{ needs.build.outputs.tags }} up -d'
           command: './buidler-documentation/deployment/prod.sh ${{needs.build.outputs.tags}} up -d'
-          # script: '${{ github.workspace }}/buidler-documentation/deployment/prod.sh sha-$GITHUB_SHA up -d'
 
       - name: Access logs
         id: 'logs'
