@@ -42,10 +42,17 @@
       "plugin": "plugin---docusaurus-debuge-74-ffa"
     }
   },
+  "/404-fad": {
+    "__comp": "__comp---site-src-pages-404-js-6-bb-277",
+    "__context": {
+      "plugin": "plugin---40468-c-3fa"
+    },
+    "config": "config---4045-e-9-90e"
+  },
   "/markdown-page-491": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-page-68-c-22a"
+      "plugin": "plugin---40468-c-3fa"
     },
     "content": "content---markdown-page-393-028"
   },
@@ -111,8 +118,8 @@
   "/-d45": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---markdown-page-68-c-22a"
+      "plugin": "plugin---40468-c-3fa"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---4045-e-9-90e"
   }
 }
