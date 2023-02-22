@@ -53,7 +53,7 @@ const config = {
       }),
     ],
   ],
-
+  // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -61,6 +61,37 @@ const config = {
                 {property: 'og:description', content: 'Stay up-to-date with the latest updates, insights, and use cases of Buidler. Join our community and be part of the future of decentralized communication today.'},
                 {property: 'og:title', content: 'Buidler Documentation'},
               ],
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'A3JJXZEKHY',
+  
+        // Public API key: it is safe to commit it
+        apiKey: '5649d2cdb91fc068e1aad628f61be875',
+  
+        indexName: 'buidler',
+
+        debug: true, // Set debug to true if you want to inspect the modal
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+  
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+  
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+  
+        // Optional: Algolia search parameters
+        searchParameters: {},
+  
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+  
+        //... other Algolia params
+      },
       navbar: {
         title: "Buidler",
         hideOnScroll: true,
@@ -153,6 +184,7 @@ const config = {
           // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
         },
       },
+     
     }),
   plugins: [require.resolve("docusaurus-plugin-image-zoom")],
 };
