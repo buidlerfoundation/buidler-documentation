@@ -66,7 +66,7 @@ const config = {
         appId: 'A3JJXZEKHY',
   
         // Public API key: it is safe to commit it
-        apiKey: '5649d2cdb91fc068e1aad628f61be875',
+        apiKey: '8e0255c9e458df05416d07530bd0788a',
   
         indexName: 'buidler',
 
@@ -100,6 +100,10 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
+          {
+            type: 'search',
+            position: 'right', // Set the position to the left
+          },
           {
             href: "https://buidler.app/download",
             label: "Download",

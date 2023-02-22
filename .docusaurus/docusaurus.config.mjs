@@ -58,7 +58,7 @@ export default {
     ],
     "algolia": {
       "appId": "A3JJXZEKHY",
-      "apiKey": "5649d2cdb91fc068e1aad628f61be875",
+      "apiKey": "8e0255c9e458df05416d07530bd0788a",
       "indexName": "buidler",
       "debug": true,
       "contextualSearch": true,
@@ -78,6 +78,10 @@ export default {
         "src": "img/logo.svg"
       },
       "items": [
+        {
+          "type": "search",
+          "position": "right"
+        },
         {
           "href": "https://buidler.app/download",
           "label": "Download",
