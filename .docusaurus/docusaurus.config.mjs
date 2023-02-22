@@ -58,7 +58,7 @@ export default {
     ],
     "algolia": {
       "appId": "A3JJXZEKHY",
-      "apiKey": "8e0255c9e458df05416d07530bd0788a",
+      "apiKey": "5649d2cdb91fc068e1aad628f61be875",
       "indexName": "buidler",
       "debug": true,
       "contextualSearch": true,
