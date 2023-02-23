@@ -283,7 +283,7 @@ a:hover{
 }
 
 .container-404 .content-mobile {
-  display: none;
+  display: none !important;
 }
 
 .container-404 .page-description {
