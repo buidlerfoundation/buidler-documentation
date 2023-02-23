@@ -56,6 +56,20 @@ export default {
         "content": "Buidler Documentation"
       }
     ],
+    "algolia": {
+      "appId": "A3JJXZEKHY",
+      "apiKey": "5649d2cdb91fc068e1aad628f61be875",
+      "indexName": "buidler",
+      "debug": true,
+      "contextualSearch": true,
+      "externalUrlRegex": "external\\.com|domain\\.com",
+      "replaceSearchResultPathname": {
+        "from": "/docs/",
+        "to": "/"
+      },
+      "searchParameters": {},
+      "searchPagePath": "search"
+    },
     "navbar": {
       "title": "Buidler",
       "hideOnScroll": true,
@@ -64,6 +78,10 @@ export default {
         "src": "img/logo.svg"
       },
       "items": [
+        {
+          "type": "search",
+          "position": "right"
+        },
         {
           "href": "https://buidler.app/download",
           "label": "Download",
