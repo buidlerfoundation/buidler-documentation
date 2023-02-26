@@ -72,6 +72,9 @@ const config = {
 
         debug: true, // Set debug to true if you want to inspect the modal
   
+        // Optional: see doc section below
+        contextualSearch: false,
+  
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
         externalUrlRegex: 'external\\.com|domain\\.com',
   
@@ -82,7 +85,9 @@ const config = {
         },
   
         // Optional: Algolia search parameters
-        searchParameters: {},
+        searchParameters: {
+          facetFilters: []
+        },
   
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
