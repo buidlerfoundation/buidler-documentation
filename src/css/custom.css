@@ -42,6 +42,12 @@
 .DocSearch-Button {
   background: #f8f8f8 !important;
   color: #949494 !important;
+  /* padding-right: 100px !important; */
+  border: 1px solid #F5F5F5 !important;
+}
+
+.DocSearch-Button-Keys {
+  display: none !important;
 }
 
 .DocSearch-Button:active, .DocSearch-Button:focus, .DocSearch-Button:hover {
@@ -361,6 +367,9 @@ a:hover{
   .container {
     max-width: 100%!important;
   }
+  .DocSearch-Button {
+    padding-right: 100px !important;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width:1300px) {
@@ -378,6 +387,10 @@ a:hover{
 
   .clean-btn {
     margin-left: 0px;
+  }
+
+  .DocSearch-Button {
+    padding-right: 100px !important;
   }
 }
 

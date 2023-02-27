@@ -61,14 +61,16 @@ export default {
       "apiKey": "62caf7194121c00c32dac90304b13a9f",
       "indexName": "buidler",
       "debug": true,
-      "contextualSearch": true,
+      "contextualSearch": false,
       "externalUrlRegex": "external\\.com|domain\\.com",
       "replaceSearchResultPathname": {
         "from": "/docs/",
         "to": "/"
       },
-      "searchParameters": {},
-      "searchPagePath": "search"
+      "searchParameters": {
+        "facetFilters": []
+      },
+      "searchPagePath": false
     },
     "navbar": {
       "title": "Buidler",
