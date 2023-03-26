@@ -353,7 +353,6 @@ a:hover{
 .container-404 .btn-mobile {
   display: none;
 }
-  
 
 @media only screen and (min-width: 1300px) {
   .docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {

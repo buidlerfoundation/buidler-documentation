@@ -49,7 +49,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '1fa'),
+    component: ComponentCreator('/docs', '1fb'),
     routes: [
       {
         path: '/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3',
@@ -72,12 +72,6 @@ export default [
       {
         path: '/docs/general/roadmap',
         component: ComponentCreator('/docs/general/roadmap', '021'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/general/tokenomic',
-        component: ComponentCreator('/docs/general/tokenomic', '568'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

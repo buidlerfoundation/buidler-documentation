@@ -126,34 +126,6 @@
                 "permalink": "/docs/general/what-is-buidler"
               },
               "next": {
-                "title": "Tokenomic",
-                "permalink": "/docs/general/tokenomic"
-              }
-            },
-            {
-              "unversionedId": "general/tokenomic",
-              "id": "general/tokenomic",
-              "title": "Tokenomic",
-              "description": "token-info",
-              "source": "@site/docs/general/tokenomic.md",
-              "sourceDirName": "general",
-              "slug": "/general/tokenomic",
-              "permalink": "/docs/general/tokenomic",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/general/tokenomic.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "title": "Tokenomic",
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Roadmap",
-                "permalink": "/docs/general/roadmap"
-              },
-              "next": {
                 "title": "Getting Started",
                 "permalink": "/docs/wallet/getting-started"
               }
@@ -260,8 +232,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tokenomic",
-                "permalink": "/docs/general/tokenomic"
+                "title": "Roadmap",
+                "permalink": "/docs/general/roadmap"
               },
               "next": {
                 "title": "Create a Wallet",
@@ -397,10 +369,6 @@
                   {
                     "type": "doc",
                     "id": "general/roadmap"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "general/tokenomic"
                   }
                 ]
               },
