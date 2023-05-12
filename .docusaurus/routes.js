@@ -49,20 +49,8 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '1fb'),
+    component: ComponentCreator('/docs', '463'),
     routes: [
-      {
-        path: '/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3',
-        component: ComponentCreator('/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3', '38b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/blog/how-buidler-store-your-password',
-        component: ComponentCreator('/docs/blog/how-buidler-store-your-password', 'd4e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
       {
         path: '/docs/community/how-to-join-community',
         component: ComponentCreator('/docs/community/how-to-join-community', 'a43'),

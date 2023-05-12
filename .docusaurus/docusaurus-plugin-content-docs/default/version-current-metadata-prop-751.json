@@ -92,42 +92,10 @@
             "docId": "community/how-to-join-community"
           }
         ]
-      },
-      {
-        "type": "category",
-        "label": "Blog",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "How Buidler Store Your Password",
-            "href": "/docs/blog/how-buidler-store-your-password",
-            "docId": "blog/how-buidler-store-your-password"
-          },
-          {
-            "type": "link",
-            "label": "Discord, Telegram: The Bottleneck For Growth In Web3",
-            "href": "/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3",
-            "docId": "blog/discord-telegram-the-bottleneck-for-growth-in-web3"
-          }
-        ]
       }
     ]
   },
   "docs": {
-    "blog/discord-telegram-the-bottleneck-for-growth-in-web3": {
-      "id": "blog/discord-telegram-the-bottleneck-for-growth-in-web3",
-      "title": "Discord, Telegram: The Bottleneck For Growth In Web3",
-      "description": "hen building a web3 community, Discord, and Telegram are often the first platforms that come to mind. They offer a way for people to connect and communicate in real time. Both are popular choices for fostering relationships and building a community. However, Web3 is forging a new path, radical shifting from the centralized model to shared ownership and decentralized decision-making. And when the web3 community continues to evolve and mature, one thing becomes clear: Discord and Telegram just don't fit in anymore. So, let's explore the problems these platforms face and the exciting possibilities of a new era beyond Discord and Telegram.",
-      "sidebar": "tutorialSidebar"
-    },
-    "blog/how-buidler-store-your-password": {
-      "id": "blog/how-buidler-store-your-password",
-      "title": "How Buidler Store Your Password",
-      "description": "<meta",
-      "sidebar": "tutorialSidebar"
-    },
     "community/how-to-join-community": {
       "id": "community/how-to-join-community",
       "title": "Join a Community",

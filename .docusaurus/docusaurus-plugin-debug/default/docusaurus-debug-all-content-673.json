@@ -20,61 +20,6 @@
           "contentPathLocalized": "/Users/mac/buidler-documentation/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "blog/discord-telegram-the-bottleneck-for-growth-in-web3",
-              "id": "blog/discord-telegram-the-bottleneck-for-growth-in-web3",
-              "title": "Discord, Telegram: The Bottleneck For Growth In Web3",
-              "description": "hen building a web3 community, Discord, and Telegram are often the first platforms that come to mind. They offer a way for people to connect and communicate in real time. Both are popular choices for fostering relationships and building a community. However, Web3 is forging a new path, radical shifting from the centralized model to shared ownership and decentralized decision-making. And when the web3 community continues to evolve and mature, one thing becomes clear: Discord and Telegram just don't fit in anymore. So, let's explore the problems these platforms face and the exciting possibilities of a new era beyond Discord and Telegram.",
-              "source": "@site/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3.mdx",
-              "sourceDirName": "blog",
-              "slug": "/blog/discord-telegram-the-bottleneck-for-growth-in-web3",
-              "permalink": "/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "title": "Discord, Telegram: The Bottleneck For Growth In Web3",
-                "sidebar_position": 2,
-                "image": "https://docs.buidler.app/img/blog/discord-telegram-and-the-dark-side-of-web2.png",
-                "description": "hen building a web3 community, Discord, and Telegram are often the first platforms that come to mind. They offer a way for people to connect and communicate in real time. Both are popular choices for fostering relationships and building a community. However, Web3 is forging a new path, radical shifting from the centralized model to shared ownership and decentralized decision-making. And when the web3 community continues to evolve and mature, one thing becomes clear: Discord and Telegram just don't fit in anymore. So, let's explore the problems these platforms face and the exciting possibilities of a new era beyond Discord and Telegram."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "How Buidler Store Your Password",
-                "permalink": "/docs/blog/how-buidler-store-your-password"
-              }
-            },
-            {
-              "unversionedId": "blog/how-buidler-store-your-password",
-              "id": "blog/how-buidler-store-your-password",
-              "title": "How Buidler Store Your Password",
-              "description": "<meta",
-              "source": "@site/docs/blog/how-buidler-store-your-password.md",
-              "sourceDirName": "blog",
-              "slug": "/blog/how-buidler-store-your-password",
-              "permalink": "/docs/blog/how-buidler-store-your-password",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog/how-buidler-store-your-password.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "id": "how-buidler-store-your-password",
-                "title": "How Buidler Store Your Password",
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Join a Community",
-                "permalink": "/docs/community/how-to-join-community"
-              },
-              "next": {
-                "title": "Discord, Telegram: The Bottleneck For Growth In Web3",
-                "permalink": "/docs/blog/discord-telegram-the-bottleneck-for-growth-in-web3"
-              }
-            },
-            {
               "unversionedId": "community/how-to-join-community",
               "id": "community/how-to-join-community",
               "title": "Join a Community",
@@ -96,10 +41,6 @@
               "previous": {
                 "title": "Backup a Wallet",
                 "permalink": "/docs/wallet/how-to-backup-wallet"
-              },
-              "next": {
-                "title": "How Buidler Store Your Password",
-                "permalink": "/docs/blog/how-buidler-store-your-password"
               }
             },
             {
@@ -417,22 +358,6 @@
                   {
                     "type": "doc",
                     "id": "community/how-to-join-community"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Blog",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "blog/how-buidler-store-your-password"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "blog/discord-telegram-the-bottleneck-for-growth-in-web3"
                   }
                 ]
               }
