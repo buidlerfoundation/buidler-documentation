@@ -112,7 +112,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://invite.buidler.app/buidler",
+            href: "https://community.buidler.app",
             label: "Join Community",
             position: "right",
             class: "join-community",
