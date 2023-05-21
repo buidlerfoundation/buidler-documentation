@@ -555,3 +555,8 @@ a:hover{
     font-size: 16px;
     line-height: 30px;
   }
+
+  .table-of-contents li {
+    margin: var(--ifm-toc-padding-vertical) var(--ifm-toc-padding-horizontal);
+    font-size: 0.8rem;
+  }
