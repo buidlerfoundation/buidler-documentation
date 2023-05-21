@@ -49,7 +49,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b48'),
+    component: ComponentCreator('/docs', 'eb0'),
     routes: [
       {
         path: '/docs/community/how-to-join-community',
@@ -60,12 +60,6 @@ export default [
       {
         path: '/docs/general/dapp-browser',
         component: ComponentCreator('/docs/general/dapp-browser', 'eae'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/general/roadmap',
-        component: ComponentCreator('/docs/general/roadmap', '021'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

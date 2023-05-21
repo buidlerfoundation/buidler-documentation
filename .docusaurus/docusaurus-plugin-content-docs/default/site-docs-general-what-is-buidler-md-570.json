@@ -20,7 +20,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Roadmap",
-    "permalink": "/docs/general/roadmap"
+    "title": "Dapp Browser",
+    "permalink": "/docs/general/dapp-browser"
   }
 }

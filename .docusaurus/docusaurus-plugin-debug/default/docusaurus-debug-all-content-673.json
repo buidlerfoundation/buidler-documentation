@@ -63,40 +63,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Roadmap",
-                "permalink": "/docs/general/roadmap"
-              },
-              "next": {
-                "title": "Wallet-to-wallet Chat",
-                "permalink": "/docs/general/wallet-to-wallet-chat"
-              }
-            },
-            {
-              "unversionedId": "general/roadmap",
-              "id": "general/roadmap",
-              "title": "Roadmap",
-              "description": "Q4/2021",
-              "source": "@site/docs/general/roadmap.md",
-              "sourceDirName": "general",
-              "slug": "/general/roadmap",
-              "permalink": "/docs/general/roadmap",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/general/roadmap.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "title": "Roadmap",
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
                 "title": "What is Buidler",
                 "permalink": "/docs/general/what-is-buidler"
               },
               "next": {
-                "title": "Dapp Browser",
-                "permalink": "/docs/general/dapp-browser"
+                "title": "Wallet-to-wallet Chat",
+                "permalink": "/docs/general/wallet-to-wallet-chat"
               }
             },
             {
@@ -149,8 +121,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Roadmap",
-                "permalink": "/docs/general/roadmap"
+                "title": "Dapp Browser",
+                "permalink": "/docs/general/dapp-browser"
               }
             },
             {
@@ -362,10 +334,6 @@
                   {
                     "type": "doc",
                     "id": "general/what-is-buidler"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "general/roadmap"
                   },
                   {
                     "type": "doc",
