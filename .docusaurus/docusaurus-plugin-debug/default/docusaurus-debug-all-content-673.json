@@ -44,6 +44,34 @@
               }
             },
             {
+              "unversionedId": "general/dapp-browser",
+              "id": "general/dapp-browser",
+              "title": "Dapp Browser",
+              "description": "Buidler DApp Browser is a more efficient and secure way for your members to explore decentralized applications without ever leaving your community.",
+              "source": "@site/docs/general/dapp-browser.mdx",
+              "sourceDirName": "general",
+              "slug": "/general/dapp-browser",
+              "permalink": "/docs/general/dapp-browser",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/general/dapp-browser.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Dapp Browser",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Roadmap",
+                "permalink": "/docs/general/roadmap"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/wallet/getting-started"
+              }
+            },
+            {
               "unversionedId": "general/roadmap",
               "id": "general/roadmap",
               "title": "Roadmap",
@@ -67,8 +95,8 @@
                 "permalink": "/docs/general/what-is-buidler"
               },
               "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/wallet/getting-started"
+                "title": "Dapp Browser",
+                "permalink": "/docs/general/dapp-browser"
               }
             },
             {
@@ -173,8 +201,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Roadmap",
-                "permalink": "/docs/general/roadmap"
+                "title": "Dapp Browser",
+                "permalink": "/docs/general/dapp-browser"
               },
               "next": {
                 "title": "Create a Wallet",
@@ -310,6 +338,10 @@
                   {
                     "type": "doc",
                     "id": "general/roadmap"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "general/dapp-browser"
                   }
                 ]
               },

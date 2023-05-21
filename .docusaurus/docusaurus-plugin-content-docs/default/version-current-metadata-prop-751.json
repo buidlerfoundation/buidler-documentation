@@ -26,6 +26,12 @@
             "label": "Roadmap",
             "href": "/docs/general/roadmap",
             "docId": "general/roadmap"
+          },
+          {
+            "type": "link",
+            "label": "Dapp Browser",
+            "href": "/docs/general/dapp-browser",
+            "docId": "general/dapp-browser"
           }
         ]
       },
@@ -100,6 +106,12 @@
       "id": "community/how-to-join-community",
       "title": "Join a Community",
       "description": "All you need is an invitation link to the community you want to join.",
+      "sidebar": "tutorialSidebar"
+    },
+    "general/dapp-browser": {
+      "id": "general/dapp-browser",
+      "title": "Dapp Browser",
+      "description": "Buidler DApp Browser is a more efficient and secure way for your members to explore decentralized applications without ever leaving your community.",
       "sidebar": "tutorialSidebar"
     },
     "general/roadmap": {
