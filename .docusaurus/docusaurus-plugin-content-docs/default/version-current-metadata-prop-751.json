@@ -32,6 +32,12 @@
             "label": "Dapp Browser",
             "href": "/docs/general/dapp-browser",
             "docId": "general/dapp-browser"
+          },
+          {
+            "type": "link",
+            "label": "Wallet-to-wallet Chat",
+            "href": "/docs/general/wallet-to-wallet-chat",
+            "docId": "general/wallet-to-wallet-chat"
           }
         ]
       },
@@ -118,6 +124,12 @@
       "id": "general/roadmap",
       "title": "Roadmap",
       "description": "Q4/2021",
+      "sidebar": "tutorialSidebar"
+    },
+    "general/wallet-to-wallet-chat": {
+      "id": "general/wallet-to-wallet-chat",
+      "title": "Wallet-to-wallet Chat",
+      "description": "Buidler is designed to help you communicate directly with other blockchain users in a trustworthy way while remaining anonymous.",
       "sidebar": "tutorialSidebar"
     },
     "general/what-is-buidler": {

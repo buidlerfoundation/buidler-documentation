@@ -49,7 +49,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '819'),
+    component: ComponentCreator('/docs', 'b48'),
     routes: [
       {
         path: '/docs/community/how-to-join-community',
@@ -66,6 +66,12 @@ export default [
       {
         path: '/docs/general/roadmap',
         component: ComponentCreator('/docs/general/roadmap', '021'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/general/wallet-to-wallet-chat',
+        component: ComponentCreator('/docs/general/wallet-to-wallet-chat', '54d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

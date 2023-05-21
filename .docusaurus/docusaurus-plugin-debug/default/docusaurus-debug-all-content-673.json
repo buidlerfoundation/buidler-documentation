@@ -67,8 +67,8 @@
                 "permalink": "/docs/general/roadmap"
               },
               "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/wallet/getting-started"
+                "title": "Wallet-to-wallet Chat",
+                "permalink": "/docs/general/wallet-to-wallet-chat"
               }
             },
             {
@@ -97,6 +97,34 @@
               "next": {
                 "title": "Dapp Browser",
                 "permalink": "/docs/general/dapp-browser"
+              }
+            },
+            {
+              "unversionedId": "general/wallet-to-wallet-chat",
+              "id": "general/wallet-to-wallet-chat",
+              "title": "Wallet-to-wallet Chat",
+              "description": "Buidler is designed to help you communicate directly with other blockchain users in a trustworthy way while remaining anonymous.",
+              "source": "@site/docs/general/wallet-to-wallet-chat.mdx",
+              "sourceDirName": "general",
+              "slug": "/general/wallet-to-wallet-chat",
+              "permalink": "/docs/general/wallet-to-wallet-chat",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/general/wallet-to-wallet-chat.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Wallet-to-wallet Chat",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Dapp Browser",
+                "permalink": "/docs/general/dapp-browser"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/wallet/getting-started"
               }
             },
             {
@@ -201,8 +229,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Dapp Browser",
-                "permalink": "/docs/general/dapp-browser"
+                "title": "Wallet-to-wallet Chat",
+                "permalink": "/docs/general/wallet-to-wallet-chat"
               },
               "next": {
                 "title": "Create a Wallet",
@@ -342,6 +370,10 @@
                   {
                     "type": "doc",
                     "id": "general/dapp-browser"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "general/wallet-to-wallet-chat"
                   }
                 ]
               },
