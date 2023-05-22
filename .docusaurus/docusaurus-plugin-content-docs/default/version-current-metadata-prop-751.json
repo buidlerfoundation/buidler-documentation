@@ -111,7 +111,7 @@
     "general/dapp-browser": {
       "id": "general/dapp-browser",
       "title": "Dapp Browser",
-      "description": "Buidler DApp Browser is a more efficient and secure way for your members to explore decentralized applications without ever leaving your community.",
+      "description": "Buidler Dapp Browser is a more efficient and secure way for your members to explore decentralized applications without ever leaving your community.",
       "sidebar": "tutorialSidebar"
     },
     "general/wallet-to-wallet-chat": {
