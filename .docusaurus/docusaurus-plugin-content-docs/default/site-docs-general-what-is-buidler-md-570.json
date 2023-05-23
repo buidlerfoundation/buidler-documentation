@@ -20,7 +20,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Dapp Browser",
-    "permalink": "/docs/general/dapp-browser"
+    "title": "Wallet-to-wallet Chat",
+    "permalink": "/docs/general/wallet-to-wallet-chat"
   }
 }

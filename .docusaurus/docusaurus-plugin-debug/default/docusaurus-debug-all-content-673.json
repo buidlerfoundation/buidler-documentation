@@ -63,12 +63,40 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "What is Buidler",
-                "permalink": "/docs/general/what-is-buidler"
-              },
-              "next": {
                 "title": "Wallet-to-wallet Chat",
                 "permalink": "/docs/general/wallet-to-wallet-chat"
+              },
+              "next": {
+                "title": "Exclusive Space",
+                "permalink": "/docs/general/exclusive-space"
+              }
+            },
+            {
+              "unversionedId": "general/exclusive-space",
+              "id": "general/exclusive-space",
+              "title": "Exclusive Space",
+              "description": "An exclusive space is a private area that provides token owners with exclusive content, special perks, and benefits. By requiring ownership of a specific token, you can ensure that only like-minded and invested individuals are granted access to exclusive content. This fosters a sense of privacy and collaboration in your community.",
+              "source": "@site/docs/general/exclusive-space.mdx",
+              "sourceDirName": "general",
+              "slug": "/general/exclusive-space",
+              "permalink": "/docs/general/exclusive-space",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/general/exclusive-space.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Exclusive Space",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Dapp Browser",
+                "permalink": "/docs/general/dapp-browser"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/wallet/getting-started"
               }
             },
             {
@@ -84,19 +112,19 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/general/wallet-to-wallet-chat.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 2,
               "frontMatter": {
                 "title": "Wallet-to-wallet Chat",
-                "sidebar_position": 3
+                "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Dapp Browser",
-                "permalink": "/docs/general/dapp-browser"
+                "title": "What is Buidler",
+                "permalink": "/docs/general/what-is-buidler"
               },
               "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/wallet/getting-started"
+                "title": "Dapp Browser",
+                "permalink": "/docs/general/dapp-browser"
               }
             },
             {
@@ -121,8 +149,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Dapp Browser",
-                "permalink": "/docs/general/dapp-browser"
+                "title": "Wallet-to-wallet Chat",
+                "permalink": "/docs/general/wallet-to-wallet-chat"
               }
             },
             {
@@ -201,8 +229,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Wallet-to-wallet Chat",
-                "permalink": "/docs/general/wallet-to-wallet-chat"
+                "title": "Exclusive Space",
+                "permalink": "/docs/general/exclusive-space"
               },
               "next": {
                 "title": "Create a Wallet",
@@ -337,11 +365,15 @@
                   },
                   {
                     "type": "doc",
+                    "id": "general/wallet-to-wallet-chat"
+                  },
+                  {
+                    "type": "doc",
                     "id": "general/dapp-browser"
                   },
                   {
                     "type": "doc",
-                    "id": "general/wallet-to-wallet-chat"
+                    "id": "general/exclusive-space"
                   }
                 ]
               },

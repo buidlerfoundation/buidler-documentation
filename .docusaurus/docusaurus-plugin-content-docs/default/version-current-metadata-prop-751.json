@@ -23,15 +23,21 @@
           },
           {
             "type": "link",
+            "label": "Wallet-to-wallet Chat",
+            "href": "/docs/general/wallet-to-wallet-chat",
+            "docId": "general/wallet-to-wallet-chat"
+          },
+          {
+            "type": "link",
             "label": "Dapp Browser",
             "href": "/docs/general/dapp-browser",
             "docId": "general/dapp-browser"
           },
           {
             "type": "link",
-            "label": "Wallet-to-wallet Chat",
-            "href": "/docs/general/wallet-to-wallet-chat",
-            "docId": "general/wallet-to-wallet-chat"
+            "label": "Exclusive Space",
+            "href": "/docs/general/exclusive-space",
+            "docId": "general/exclusive-space"
           }
         ]
       },
@@ -112,6 +118,12 @@
       "id": "general/dapp-browser",
       "title": "Dapp Browser",
       "description": "Buidler Dapp Browser is a more efficient and secure way for your members to explore decentralized applications without ever leaving your community.",
+      "sidebar": "tutorialSidebar"
+    },
+    "general/exclusive-space": {
+      "id": "general/exclusive-space",
+      "title": "Exclusive Space",
+      "description": "An exclusive space is a private area that provides token owners with exclusive content, special perks, and benefits. By requiring ownership of a specific token, you can ensure that only like-minded and invested individuals are granted access to exclusive content. This fosters a sense of privacy and collaboration in your community.",
       "sidebar": "tutorialSidebar"
     },
     "general/wallet-to-wallet-chat": {
