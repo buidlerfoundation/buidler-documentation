@@ -117,7 +117,6 @@
 }
 
 .navbar {
-  background: none;
   box-shadow: none;
 }
 
@@ -216,9 +215,9 @@
   display: none;
 }
 
-/* .navbar { */
-  /* border-bottom: 0.25px solid var(--border-color); */
-/* } */
+.theme-doc-sidebar-container  {
+  z-index: 300;
+}
 
 .pagination-nav__link {
   border: 1px solid var(--border-color);
