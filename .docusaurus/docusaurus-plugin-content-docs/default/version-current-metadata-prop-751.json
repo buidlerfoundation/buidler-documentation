@@ -23,7 +23,7 @@
           },
           {
             "type": "link",
-            "label": "Wallet-to-wallet Chat",
+            "label": "Wallet-to-Wallet Chat",
             "href": "/docs/general/wallet-to-wallet-chat",
             "docId": "general/wallet-to-wallet-chat"
           },
@@ -128,7 +128,7 @@
     },
     "general/wallet-to-wallet-chat": {
       "id": "general/wallet-to-wallet-chat",
-      "title": "Wallet-to-wallet Chat",
+      "title": "Wallet-to-Wallet Chat",
       "description": "Buidler is designed to help you communicate directly with other blockchain users in a trustworthy way while remaining anonymous.",
       "sidebar": "tutorialSidebar"
     },

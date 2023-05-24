@@ -63,7 +63,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Wallet-to-wallet Chat",
+                "title": "Wallet-to-Wallet Chat",
                 "permalink": "/docs/general/wallet-to-wallet-chat"
               },
               "next": {
@@ -102,7 +102,7 @@
             {
               "unversionedId": "general/wallet-to-wallet-chat",
               "id": "general/wallet-to-wallet-chat",
-              "title": "Wallet-to-wallet Chat",
+              "title": "Wallet-to-Wallet Chat",
               "description": "Buidler is designed to help you communicate directly with other blockchain users in a trustworthy way while remaining anonymous.",
               "source": "@site/docs/general/wallet-to-wallet-chat.mdx",
               "sourceDirName": "general",
@@ -114,7 +114,7 @@
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "title": "Wallet-to-wallet Chat",
+                "title": "Wallet-to-Wallet Chat",
                 "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
@@ -149,7 +149,7 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Wallet-to-wallet Chat",
+                "title": "Wallet-to-Wallet Chat",
                 "permalink": "/docs/general/wallet-to-wallet-chat"
               }
             },
