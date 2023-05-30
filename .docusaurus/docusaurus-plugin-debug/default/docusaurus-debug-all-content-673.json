@@ -95,8 +95,8 @@
                 "permalink": "/docs/general/dapp-browser"
               },
               "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/wallet/getting-started"
+                "title": "Web3 Profile",
+                "permalink": "/docs/general/web3-profile"
               }
             },
             {
@@ -125,6 +125,34 @@
               "next": {
                 "title": "Dapp Browser",
                 "permalink": "/docs/general/dapp-browser"
+              }
+            },
+            {
+              "unversionedId": "general/web3-profile",
+              "id": "general/web3-profile",
+              "title": "Web3 Profile",
+              "description": "Builder Profile is an all-in-one profile that lets you show your web2 and web3 presence in one place. This means you can put all your links to websites, social media accounts, smart contracts, NFT collections, and DApps under your web3 identity. This makes it easy and safe for your followers to find all your information and keep up with your latest news and announcements.",
+              "source": "@site/docs/general/web3-profile.mdx",
+              "sourceDirName": "general",
+              "slug": "/general/web3-profile",
+              "permalink": "/docs/general/web3-profile",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/general/web3-profile.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Web3 Profile",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Exclusive Space",
+                "permalink": "/docs/general/exclusive-space"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/wallet/getting-started"
               }
             },
             {
@@ -229,8 +257,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Exclusive Space",
-                "permalink": "/docs/general/exclusive-space"
+                "title": "Web3 Profile",
+                "permalink": "/docs/general/web3-profile"
               },
               "next": {
                 "title": "Create a Wallet",
@@ -374,6 +402,10 @@
                   {
                     "type": "doc",
                     "id": "general/exclusive-space"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "general/web3-profile"
                   }
                 ]
               },

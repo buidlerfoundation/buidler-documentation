@@ -56,7 +56,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-cd5": {
+  "/docs-82d": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsc-1-a-6ad"
@@ -78,6 +78,10 @@
   "/docs/general/wallet-to-wallet-chat-54d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-general-wallet-to-wallet-chat-44-a-88d"
+  },
+  "/docs/general/web3-profile-a4f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-general-web-3-profile-1-ac-34f"
   },
   "/docs/general/what-is-buidler-299": {
     "__comp": "__comp---theme-doc-item-178-a40",

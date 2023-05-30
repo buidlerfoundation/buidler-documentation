@@ -547,6 +547,12 @@ a:hover{
     margin: auto;
   }
 
+  .desktop-screenshot-large {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+
   .markdown h1:first-child {
     --ifm-h1-font-size: 34px;
   }
