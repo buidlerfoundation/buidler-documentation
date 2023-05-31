@@ -535,6 +535,14 @@ a:hover{
   src: local('SF UI Text Heavy Italic'),  url('../fonts/SFUIText-HeavyItalic.woff') format('woff');
   }
 
+  .medium-zoom--opened .medium-zoom-overlay {
+    z-index: 1000;
+  }
+  .medium-zoom-image--opened {
+    z-index: 1000;
+  }
+
+
   .mobile-screenshot {
     width: 40%;
     text-align: center;
