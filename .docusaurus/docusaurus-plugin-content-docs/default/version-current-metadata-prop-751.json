@@ -141,7 +141,7 @@
     "general/web3-profile": {
       "id": "general/web3-profile",
       "title": "Web3 Profile",
-      "description": "Builder Profile is an all-in-one profile that lets you show your web2 and web3 presence in one place. This means you can put all your links to websites, social media accounts, smart contracts, NFT collections, and DApps under your web3 identity. This makes it easy and safe for your followers to find all your information and keep up with your latest news and announcements.",
+      "description": "Builder Profile is an all-in-one profile that lets you show your web2 and web3 presence in one place. Display your official website links and social media accounts under your web3 identity, alongside with your wallet address and crypto assets.",
       "sidebar": "tutorialSidebar"
     },
     "general/what-is-buidler": {
