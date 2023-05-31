@@ -100,6 +100,34 @@
               }
             },
             {
+              "unversionedId": "general/multi-chain-citizens",
+              "id": "general/multi-chain-citizens",
+              "title": "Multi-chain Citizens",
+              "description": "Buidler provides a platform for users from different blockchains to communicate and exchange assets with each other in the most convenient way possible. Users can seamlessly chat, explore, buy, sell, and exchange NFTs and tokens across multiple blockchains.",
+              "source": "@site/docs/general/multi-chain-citizens.mdx",
+              "sourceDirName": "general",
+              "slug": "/general/multi-chain-citizens",
+              "permalink": "/docs/general/multi-chain-citizens",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/general/multi-chain-citizens.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "title": "Multi-chain Citizens",
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Web3 Profile",
+                "permalink": "/docs/general/web3-profile"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/wallet/getting-started"
+              }
+            },
+            {
               "unversionedId": "general/wallet-to-wallet-chat",
               "id": "general/wallet-to-wallet-chat",
               "title": "Wallet-to-Wallet Chat",
@@ -151,8 +179,8 @@
                 "permalink": "/docs/general/exclusive-space"
               },
               "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/wallet/getting-started"
+                "title": "Multi-chain Citizens",
+                "permalink": "/docs/general/multi-chain-citizens"
               }
             },
             {
@@ -257,8 +285,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Web3 Profile",
-                "permalink": "/docs/general/web3-profile"
+                "title": "Multi-chain Citizens",
+                "permalink": "/docs/general/multi-chain-citizens"
               },
               "next": {
                 "title": "Create a Wallet",
@@ -406,6 +434,10 @@
                   {
                     "type": "doc",
                     "id": "general/web3-profile"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "general/multi-chain-citizens"
                   }
                 ]
               },

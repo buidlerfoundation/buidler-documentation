@@ -44,6 +44,12 @@
             "label": "Web3 Profile",
             "href": "/docs/general/web3-profile",
             "docId": "general/web3-profile"
+          },
+          {
+            "type": "link",
+            "label": "Multi-chain Citizens",
+            "href": "/docs/general/multi-chain-citizens",
+            "docId": "general/multi-chain-citizens"
           }
         ]
       },
@@ -130,6 +136,12 @@
       "id": "general/exclusive-space",
       "title": "Exclusive Space",
       "description": "An exclusive space is a private area that provides token owners with exclusive content, special perks, and benefits. By requiring ownership of a specific token, you can ensure that only like-minded and invested individuals are granted access to exclusive content. This fosters a sense of privacy and collaboration in your community.",
+      "sidebar": "tutorialSidebar"
+    },
+    "general/multi-chain-citizens": {
+      "id": "general/multi-chain-citizens",
+      "title": "Multi-chain Citizens",
+      "description": "Buidler provides a platform for users from different blockchains to communicate and exchange assets with each other in the most convenient way possible. Users can seamlessly chat, explore, buy, sell, and exchange NFTs and tokens across multiple blockchains.",
       "sidebar": "tutorialSidebar"
     },
     "general/wallet-to-wallet-chat": {
