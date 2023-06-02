@@ -49,11 +49,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f2c'),
+    component: ComponentCreator('/docs', '73d'),
     routes: [
       {
         path: '/docs/community/how-to-join-community',
         component: ComponentCreator('/docs/community/how-to-join-community', 'a43'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/general/community-power',
+        component: ComponentCreator('/docs/general/community-power', 'c3f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -50,6 +50,12 @@
             "label": "Multi-chain Citizens",
             "href": "/docs/general/multi-chain-citizens",
             "docId": "general/multi-chain-citizens"
+          },
+          {
+            "type": "link",
+            "label": "Community Power",
+            "href": "/docs/general/community-power",
+            "docId": "general/community-power"
           }
         ]
       },
@@ -124,6 +130,12 @@
       "id": "community/how-to-join-community",
       "title": "Join a Community",
       "description": "All you need is an invitation link to the community you want to join.",
+      "sidebar": "tutorialSidebar"
+    },
+    "general/community-power": {
+      "id": "general/community-power",
+      "title": "Community Power",
+      "description": "Community Power empowers individuals to take control of their communities and contribute to the greater good through community-driven proposals and voting. We aim to create a platform where everyone can speak up and be heard, fostering a more equitable and just society where everyone can thrive.",
       "sidebar": "tutorialSidebar"
     },
     "general/dapp-browser": {

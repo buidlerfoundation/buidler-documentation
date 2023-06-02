@@ -56,7 +56,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-f2c": {
+  "/docs-73d": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsc-1-a-6ad"
@@ -66,6 +66,10 @@
   "/docs/community/how-to-join-community-a43": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-community-how-to-join-communityb-50-2f3"
+  },
+  "/docs/general/community-power-c3f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-general-community-power-0-c-1-a46"
   },
   "/docs/general/dapp-browser-eae": {
     "__comp": "__comp---theme-doc-item-178-a40",
