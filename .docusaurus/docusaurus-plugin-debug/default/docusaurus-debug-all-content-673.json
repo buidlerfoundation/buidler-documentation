@@ -47,7 +47,7 @@
               "unversionedId": "general/community-power",
               "id": "general/community-power",
               "title": "Community Power",
-              "description": "Community Power empowers individuals to take control of their communities and contribute to the greater good through community-driven proposals and voting. We aim to create a platform where everyone can speak up and be heard, fostering a more equitable and just society where everyone can thrive.",
+              "description": "All communities on Buidler use decentralized voting to determine the acceptance of various entities, such as ENS, addresses, domains, dApps, smart contracts, tokens, and more. The outcomes of these votes are stored in decentralized storage and distributed across all communities to ensure everything is clear and fair when making decisions.",
               "source": "@site/docs/general/community-power.mdx",
               "sourceDirName": "general",
               "slug": "/general/community-power",
