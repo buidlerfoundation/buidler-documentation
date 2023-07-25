@@ -96,7 +96,7 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Buidler - Make Web3 Happen",
+          "title": "Buidler - One extension. Any communities.",
           "items": [
             {
               "label": "Website",
@@ -104,15 +104,32 @@ export default {
             },
             {
               "label": "Twitter",
-              "href": "https://twitter/buidler_app"
+              "href": "https://twitter.com/buidler_app"
             },
             {
               "label": "Youtube",
-              "href": "https://www.youtube.com/channel/UCIkFTkBdbVgzQgw6braFaeg"
+              "href": "https://www.youtube.com/@buidler_app"
             },
             {
               "label": "Github",
               "href": "https://github.com/buidlerfoundation"
+            }
+          ]
+        },
+        {
+          "title": "Product",
+          "items": [
+            {
+              "label": "Web App",
+              "href": "https://beta.buidler.app/"
+            },
+            {
+              "label": "Extension",
+              "href": "https://storage.googleapis.com/buidler/24439d55-3509-4e25-9ff9-362ce2f0a8c2/1690277083578.zip"
+            },
+            {
+              "label": "Web Plugin",
+              "href": "https://docs.buidler.app/docs/general/install-live-chat-plugin"
             }
           ]
         },

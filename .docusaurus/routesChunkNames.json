@@ -1,77 +1,34 @@
 {
-  "/__docusaurus/debug-4a3": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
-  "/__docusaurus/debug/config-21e": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
-  "/__docusaurus/debug/content-557": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-f63": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
-  "/__docusaurus/debug/metadata-c48": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
-  "/__docusaurus/debug/registry-0a8": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
-  "/__docusaurus/debug/routes-693": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuge-74-ffa"
-    }
-  },
   "/404-fad": {
-    "__comp": "__comp---site-src-pages-404-js-6-bb-277",
+    "__comp": "6bb41b40",
     "__context": {
-      "plugin": "plugin---40468-c-3fa"
+      "plugin": "68ced570"
     },
-    "config": "config---4045-e-9-90e"
+    "config": "5e9f5e1a"
   },
   "/markdown-page-491": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---40468-c-3fa"
+      "plugin": "68ced570"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/docs-584": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---docsc-1-a-6ad"
+      "plugin": "c1a0c411"
     },
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "versionMetadata": "935f2afb"
   },
   "/docs/general/install-live-chat-plugin-b53": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-general-install-live-chat-plugin-376-caf"
+    "__comp": "17896441",
+    "content": "376372a2"
   },
   "/-d45": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---40468-c-3fa"
+      "plugin": "68ced570"
     },
-    "config": "config---4045-e-9-90e"
+    "config": "5e9f5e1a"
   }
 }
