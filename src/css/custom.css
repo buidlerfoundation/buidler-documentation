@@ -14,7 +14,7 @@
   --ifm-color-primary-light: #727272;
   --ifm-color-primary-lighter: #acacac;
   --ifm-color-primary-lightest: #e8e8e8;
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size: 90%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-menu-color-background-hover: none;
   --ifm-global-spacing: 1rem;
@@ -438,6 +438,13 @@ a:hover{
     margin-top: 1.25rem;
     padding: 0;
   }
+}
+
+.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
+  font: "SF UI Text";
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 30px !important;
 }
 
 @font-face {

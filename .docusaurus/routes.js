@@ -49,95 +49,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '73d'),
+    component: ComponentCreator('/docs', '584'),
     routes: [
       {
-        path: '/docs/community/how-to-join-community',
-        component: ComponentCreator('/docs/community/how-to-join-community', 'a43'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/general/community-power',
-        component: ComponentCreator('/docs/general/community-power', 'c3f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/general/dapp-browser',
-        component: ComponentCreator('/docs/general/dapp-browser', 'eae'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/general/exclusive-space',
-        component: ComponentCreator('/docs/general/exclusive-space', 'a58'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/general/multi-chain-citizens',
-        component: ComponentCreator('/docs/general/multi-chain-citizens', '59b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/general/wallet-to-wallet-chat',
-        component: ComponentCreator('/docs/general/wallet-to-wallet-chat', '54d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/general/web3-profile',
-        component: ComponentCreator('/docs/general/web3-profile', 'a4f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/general/what-is-buidler',
-        component: ComponentCreator('/docs/general/what-is-buidler', '299'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/wallet/connect-via-metamask-walletconnect',
-        component: ComponentCreator('/docs/wallet/connect-via-metamask-walletconnect', '9cf'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/wallet/connect-via-social',
-        component: ComponentCreator('/docs/wallet/connect-via-social', '681'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/wallet/getting-started',
-        component: ComponentCreator('/docs/wallet/getting-started', '95d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/wallet/how-copy-address',
-        component: ComponentCreator('/docs/wallet/how-copy-address', 'b71'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/wallet/how-to-backup-wallet',
-        component: ComponentCreator('/docs/wallet/how-to-backup-wallet', '2fa'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/wallet/how-to-create-wallet',
-        component: ComponentCreator('/docs/wallet/how-to-create-wallet', 'f56'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/wallet/how-to-import-wallet',
-        component: ComponentCreator('/docs/wallet/how-to-import-wallet', '31d'),
+        path: '/docs/general/install-live-chat-plugin',
+        component: ComponentCreator('/docs/general/install-live-chat-plugin', 'b53'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

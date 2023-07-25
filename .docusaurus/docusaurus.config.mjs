@@ -85,13 +85,8 @@ export default {
           "position": "right"
         },
         {
-          "href": "https://buidler.app/download",
-          "label": "Download",
-          "position": "right"
-        },
-        {
-          "href": "https://community.buidler.app",
-          "label": "Join Community",
+          "href": "https://storage.googleapis.com/buidler/24439d55-3509-4e25-9ff9-362ce2f0a8c2/1690277083578.zip",
+          "label": "Install Extension",
           "position": "right",
           "class": "join-community"
         }
@@ -118,15 +113,6 @@ export default {
             {
               "label": "Github",
               "href": "https://github.com/buidlerfoundation"
-            }
-          ]
-        },
-        {
-          "title": "Product",
-          "items": [
-            {
-              "label": "Download",
-              "href": "https://buidler.app/download"
             }
           ]
         },

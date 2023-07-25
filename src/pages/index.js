@@ -9,6 +9,6 @@ import  { Redirect } from 'react-router-dom';
 import styles from './index.module.css';
 
 export default function Home() {
-  return <Redirect to='/docs/general/what-is-buidler'/>;
+  return <Redirect to='/docs/general/install-live-chat-plugin'/>;
 }
 
