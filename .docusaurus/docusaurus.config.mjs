@@ -27,7 +27,8 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/mac/buidler-documentation/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "path": "general",
+          "routeBasePath": "/"
         },
         "blog": {
           "showReadingTime": true,

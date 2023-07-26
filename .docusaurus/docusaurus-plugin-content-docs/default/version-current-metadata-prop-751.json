@@ -12,23 +12,23 @@
       {
         "type": "category",
         "label": "General",
-        "collapsible": true,
-        "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Install Buidler Live Chat",
-            "href": "/docs/general/install-live-chat-plugin",
-            "docId": "general/install-live-chat-plugin"
+            "label": "Install Live Chat Plugin",
+            "href": "/install-live-chat-plugin",
+            "docId": "install-live-chat-plugin"
           }
-        ]
+        ],
+        "collapsed": true,
+        "collapsible": true
       }
     ]
   },
   "docs": {
-    "general/install-live-chat-plugin": {
-      "id": "general/install-live-chat-plugin",
-      "title": "Install Buidler Live Chat",
+    "install-live-chat-plugin": {
+      "id": "install-live-chat-plugin",
+      "title": "Install Live Chat Plugin",
       "description": "By enabling Buidler live chat on your website, you can provide your visitors with an easy way to get in touch with you and receive real-time support. To enable Buidler live chat on your website, follow these simple steps:",
       "sidebar": "tutorialSidebar"
     }

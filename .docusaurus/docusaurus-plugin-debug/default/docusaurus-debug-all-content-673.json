@@ -9,33 +9,31 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/docs",
-          "tagsPath": "/docs/tags",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "path": "/",
+          "tagsPath": "/tags",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/mac/buidler-documentation/sidebars.js",
-          "contentPath": "/Users/mac/buidler-documentation/docs",
+          "contentPath": "/Users/mac/buidler-documentation/general",
           "contentPathLocalized": "/Users/mac/buidler-documentation/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "general/install-live-chat-plugin",
-              "id": "general/install-live-chat-plugin",
-              "title": "Install Buidler Live Chat",
+              "unversionedId": "install-live-chat-plugin",
+              "id": "install-live-chat-plugin",
+              "title": "Install Live Chat Plugin",
               "description": "By enabling Buidler live chat on your website, you can provide your visitors with an easy way to get in touch with you and receive real-time support. To enable Buidler live chat on your website, follow these simple steps:",
-              "source": "@site/docs/general/install-live-chat-plugin.mdx",
-              "sourceDirName": "general",
-              "slug": "/general/install-live-chat-plugin",
-              "permalink": "/docs/general/install-live-chat-plugin",
+              "source": "@site/general/install-live-chat-plugin.mdx",
+              "sourceDirName": ".",
+              "slug": "/install-live-chat-plugin",
+              "permalink": "/install-live-chat-plugin",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/general/install-live-chat-plugin.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 10,
+              "sidebarPosition": 1,
               "frontMatter": {
-                "title": "Install Buidler Live Chat",
-                "sidebar_position": 10
+                "title": "Install Live Chat Plugin",
+                "sidebar_position": 1,
+                "id": "install-live-chat-plugin"
               },
               "sidebar": "tutorialSidebar"
             }
@@ -46,14 +44,14 @@
               {
                 "type": "category",
                 "label": "General",
-                "collapsible": true,
-                "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "general/install-live-chat-plugin"
+                    "id": "install-live-chat-plugin"
                   }
-                ]
+                ],
+                "collapsed": true,
+                "collapsible": true
               }
             ]
           }
