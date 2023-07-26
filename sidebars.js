@@ -19,11 +19,12 @@ const sidebars = {
   // But you can create a sidebar manually
 
   tutorialSidebar: [
-    {
-      type: 'category',
-      label: 'General',
-      items: ['install-live-chat-plugin'],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'General',
+    //   items: ['install-live-chat-plugin'],
+    // },
+    'install-live-chat-plugin'
   ],
 
 };

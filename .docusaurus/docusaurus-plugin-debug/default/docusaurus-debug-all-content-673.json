@@ -42,16 +42,8 @@
           "sidebars": {
             "tutorialSidebar": [
               {
-                "type": "category",
-                "label": "General",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "install-live-chat-plugin"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
+                "type": "doc",
+                "id": "install-live-chat-plugin"
               }
             ]
           }

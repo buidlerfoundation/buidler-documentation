@@ -10,18 +10,10 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "category",
-        "label": "General",
-        "items": [
-          {
-            "type": "link",
-            "label": "Install Live Chat Plugin",
-            "href": "/install-live-chat-plugin",
-            "docId": "install-live-chat-plugin"
-          }
-        ],
-        "collapsed": true,
-        "collapsible": true
+        "type": "link",
+        "label": "Install Live Chat Plugin",
+        "href": "/install-live-chat-plugin",
+        "docId": "install-live-chat-plugin"
       }
     ]
   },
