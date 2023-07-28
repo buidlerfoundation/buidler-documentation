@@ -65,7 +65,7 @@ export default {
       "contextualSearch": false,
       "externalUrlRegex": "external\\.com|domain\\.com",
       "replaceSearchResultPathname": {
-        "from": "/docs/",
+        "from": "/",
         "to": "/"
       },
       "searchParameters": {
