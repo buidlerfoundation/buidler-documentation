@@ -120,6 +120,10 @@
   box-shadow: none;
 }
 
+.navbar__toggle {
+  margin-right: 20px;
+}
+
 .clean-btn {
   margin-left: 10px;
 }
@@ -136,17 +140,15 @@
   font-weight: 700;
 }
 .searchBox_ZlJk {
-  /* display: none; */
   padding: 0px !important;
   position: inherit !important;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .searchBox_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module {
-  /* display: none; */
   padding: 0px !important;
   position: inherit !important;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .join-community:hover{
@@ -377,12 +379,14 @@ a:hover{
 
 @media only screen and (min-width: 768px) and (max-width:1300px) {
   .docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
-    max-width: 30rem;
-    min-width: 30rem;
+    max-width: 35rem;
+    min-width: 35rem;
+    margin: auto;
   }
   .docItemContainer_Djhp {
-    max-width: 30rem;
-    min-width: 30rem;
+    max-width: 35rem;
+    min-width: 35rem;
+    margin: auto;
   }
   .container {
     max-width: 100%!important;
