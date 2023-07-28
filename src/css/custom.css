@@ -300,15 +300,15 @@ a:hover{
   content: none;
 }
 
-.docItemCol_VOVn {
+/* .docItemCol_VOVn {
   display: flex;
   justify-content: center;
-}
+} */
 
-.docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
+/* .docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
   display: flex;
   justify-content: center;
-}
+} */
 
 .navbar-sidebar__brand {
   justify-content: space-between;
