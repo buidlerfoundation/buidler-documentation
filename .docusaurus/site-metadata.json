@@ -32,6 +32,9 @@
       "name": "@docusaurus/theme-search-algolia",
       "version": "2.2.0"
     },
+    "buidler-plugin": {
+      "type": "project"
+    },
     "docusaurus-plugin-image-zoom": {
       "type": "package",
       "name": "docusaurus-plugin-image-zoom",

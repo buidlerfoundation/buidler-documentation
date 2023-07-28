@@ -24,7 +24,7 @@ const sidebars = {
     //   label: 'General',
     //   items: ['install-live-chat-plugin'],
     // },
-    'install-live-chat-plugin'
+    'install-live-chat-plugin',
   ],
 
 };

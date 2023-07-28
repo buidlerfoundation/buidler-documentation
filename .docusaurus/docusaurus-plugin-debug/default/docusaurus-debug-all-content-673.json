@@ -88,6 +88,7 @@
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
   "docusaurus-theme-search-algolia": {},
+  "buidler-plugin": {},
   "docusaurus-plugin-image-zoom": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}

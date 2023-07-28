@@ -360,10 +360,12 @@ a:hover{
   .docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
     max-width: 43rem;
     min-width: 43rem;
+    margin: auto;
   }
   .docItemContainer_Djhp {
     max-width: 43rem;
     min-width: 43rem;
+    margin: auto;
   }
   .container {
     max-width: 100%!important;

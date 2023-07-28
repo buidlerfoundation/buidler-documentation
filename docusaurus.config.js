@@ -107,7 +107,7 @@ const config = {
             position: 'right', // Set the position to the left
           },
           {
-            href: "https://storage.googleapis.com/buidler/24439d55-3509-4e25-9ff9-362ce2f0a8c2/1690277083578.zip",
+            href: "https://chrome.google.com/webstore/detail/omhbdacaeafhladkifficmjmpeaijlfc",
             label: "Install Extension",
             position: "right",
             class: "join-community",
@@ -147,7 +147,7 @@ const config = {
               },
               {
                 label: "Extension",
-                href: "https://storage.googleapis.com/buidler/24439d55-3509-4e25-9ff9-362ce2f0a8c2/1690277083578.zip",
+                href: "https://chrome.google.com/webstore/detail/omhbdacaeafhladkifficmjmpeaijlfc",
               },
               {
                 label: "Web Plugin",
@@ -189,13 +189,17 @@ const config = {
           light: "rgb(255, 255, 255)",
           dark: "rgb(50, 50, 50)",
         },
-        config: {
-          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
-        },
-      },
-     
+      }
     }),
-  plugins: [require.resolve("docusaurus-plugin-image-zoom")],
+  plugins: [
+    path.resolve("src", 'buidler-plugin'),
+    require.resolve("docusaurus-plugin-image-zoom")],
+  scripts: [
+    {
+      src: 'https://buidler.app/download/plugin.min.js',
+      type: 'text/javascript'
+    },
+  ],
 };
 
 module.exports = config;

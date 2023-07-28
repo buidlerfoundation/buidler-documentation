@@ -86,7 +86,7 @@ export default {
           "position": "right"
         },
         {
-          "href": "https://storage.googleapis.com/buidler/24439d55-3509-4e25-9ff9-362ce2f0a8c2/1690277083578.zip",
+          "href": "https://chrome.google.com/webstore/detail/omhbdacaeafhladkifficmjmpeaijlfc",
           "label": "Install Extension",
           "position": "right",
           "class": "join-community"
@@ -126,7 +126,7 @@ export default {
             },
             {
               "label": "Extension",
-              "href": "https://storage.googleapis.com/buidler/24439d55-3509-4e25-9ff9-362ce2f0a8c2/1690277083578.zip"
+              "href": "https://chrome.google.com/webstore/detail/omhbdacaeafhladkifficmjmpeaijlfc"
             },
             {
               "label": "Web Plugin",
@@ -278,8 +278,7 @@ export default {
       "background": {
         "light": "rgb(255, 255, 255)",
         "dark": "rgb(50, 50, 50)"
-      },
-      "config": {}
+      }
     },
     "docs": {
       "versionPersistence": "localStorage",
@@ -294,7 +293,14 @@ export default {
     }
   },
   "plugins": [
+    "/Users/mac/buidler-documentation/src/buidler-plugin",
     "/Users/mac/buidler-documentation/node_modules/docusaurus-plugin-image-zoom/src/index.js"
+  ],
+  "scripts": [
+    {
+      "src": "https://buidler.app/download/plugin.min.js",
+      "type": "text/javascript"
+    }
   ],
   "baseUrlIssueBanner": true,
   "onDuplicateRoutes": "warn",
@@ -303,7 +309,6 @@ export default {
   ],
   "customFields": {},
   "themes": [],
-  "scripts": [],
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],
