@@ -9,7 +9,7 @@ const path = require("path");
 const config = {
   title: "Buidler Documentation",
   tagline:
-    "Buidler is a web3 messaging app for your community, teams, and supporters to connect, communicate and collaborate",
+    "Buidler is a messaging platform that lets you dive into communities right on the sites you're browsing, instantly.",
   url: "https://docs.buidler.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -59,7 +59,13 @@ const config = {
     ({
       metadata: [{property: 'og:image', content: 'https://docs.buidler.app/img/buidler.png'},
                 {property: 'og:description', content: 'Stay up-to-date with the latest updates, insights, and use cases of Buidler. Join our community and be part of the future of decentralized communication today.'},
-                {property: 'og:title', content: 'Buidler Documentation'},
+                {property: 'og:title', content: 'Buidler Documentation - One extension. Any Communities.'},
+                {property: 'og:site_name', content: 'Buidler'},
+                {property: 'twitter:site', content: '@buidler_app'},
+                {property: 'twitter:card', content: 'summary_large_image'},
+                {property: 'twitter:title', content: 'Buidler Documentation - One extension. Any Communities.'},
+                {property: 'twitter:description', content: 'Buidler is a messaging platform that lets you dive into communities right on the sites you are browsing, instantly.'},
+                {property: 'twitter:image', content: 'https://docs.buidler.app/img/buidler.png'},
               ],
       algolia: {
         // The application ID provided by Algolia
