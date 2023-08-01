@@ -43,12 +43,6 @@ export default {
     ]
   ],
   "themeConfig": {
-    "metadata": [
-      {
-        "name": "robots",
-        "content": "noindex"
-      }
-    ],
     "algolia": {
       "appId": "A3JJXZEKHY",
       "apiKey": "62caf7194121c00c32dac90304b13a9f",
@@ -279,6 +273,7 @@ export default {
         "autoCollapseCategories": false
       }
     },
+    "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
