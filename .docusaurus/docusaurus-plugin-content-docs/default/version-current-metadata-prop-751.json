@@ -27,7 +27,7 @@
     "about": {
       "id": "about",
       "title": "About Buidler",
-      "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
+      "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly.",
       "sidebar": "tutorialSidebar"
     },
     "add-community-chat-plugin": {

@@ -21,7 +21,7 @@
               "unversionedId": "about",
               "id": "about",
               "title": "About Buidler",
-              "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
+              "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly.",
               "source": "@site/general/buidler-introduction.mdx",
               "sourceDirName": ".",
               "slug": "/about",
@@ -34,15 +34,7 @@
                 "title": "About Buidler",
                 "sidebar_position": 1,
                 "id": "about",
-                "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
-                "og:title": "About Buidler",
-                "og:image": "https://docs.buidler.app/img/buidler-extension.png",
-                "og:description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
-                "og:twitter:card": "summary_large_image",
-                "og:twitter:site": "@buidler_app",
-                "og:twitter:title": "About Buidler",
-                "og:twitter:description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
-                "og:twitter:image": "https://docs.buidler.app/img/buidler-extension.png"
+                "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly."
               },
               "sidebar": "tutorialSidebar",
               "next": {
