@@ -9,6 +9,13 @@ import  { Redirect } from 'react-router-dom';
 import styles from './index.module.css';
 
 export default function Home() {
-  return <Redirect to='/about'/>;
+  return (
+    <Layout>
+      <main className={clsx(styles.heroBanner)}>
+        <HomepageFeatures />
+      </main>
+    </Layout>
+  );
+  // return <Redirect to='/about'/>;
 }
 
