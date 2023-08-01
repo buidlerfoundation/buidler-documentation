@@ -67,6 +67,14 @@ const config = {
       //           {property: 'twitter:description', content: 'Buidler is a messaging platform that lets you dive into communities right on the sites you are browsing, instantly.'},
       //           {property: 'twitter:image', content: 'https://docs.buidler.app/img/buidler-extension.png'},
       //         ],
+
+      metadata: [
+        // Set noIndex to true to prevent Docusaurus from using global metadata
+        {
+          name: 'robots',
+          content: 'noindex',
+        },
+      ],
       algolia: {
         // The application ID provided by Algolia
         appId: 'A3JJXZEKHY',
