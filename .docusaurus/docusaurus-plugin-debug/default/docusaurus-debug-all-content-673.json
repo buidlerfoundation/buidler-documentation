@@ -18,60 +18,67 @@
           "contentPathLocalized": "/Users/mac/buidler-documentation/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "buidler-introduction",
-              "id": "buidler-introduction",
-              "title": "Buidler Introduction",
+              "unversionedId": "about",
+              "id": "about",
+              "title": "About Buidler",
               "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
               "source": "@site/general/buidler-introduction.mdx",
               "sourceDirName": ".",
-              "slug": "/buidler-introduction",
-              "permalink": "/buidler-introduction",
+              "slug": "/about",
+              "permalink": "/about",
               "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "title": "Buidler Introduction",
+                "title": "About Buidler",
                 "sidebar_position": 1,
-                "id": "buidler-introduction",
-                "meta": {
-                  "title": "Buidler Introduction",
-                  "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
-                  "twitter:card": "summary_large_image",
-                  "twitter:site": "@buidler_app",
-                  "twitter:title": "Buidler Introduction",
-                  "twitter:description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
-                  "twitter:image": "https://docs.buidler.app/img/buidler-extension.png"
-                }
+                "id": "about",
+                "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
+                "og:title": "About Buidler",
+                "og:description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
+                "og:twitter:card": "summary_large_image",
+                "og:twitter:site": "@buidler_app",
+                "og:twitter:title": "About Buidler",
+                "og:twitter:description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
+                "og:twitter:image": "https://docs.buidler.app/img/buidler-extension.png"
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Install Live Chat Plugin",
-                "permalink": "/install-live-chat-plugin"
+                "title": "Add Community Chat Plugin",
+                "permalink": "/add-community-chat-plugin"
               }
             },
             {
-              "unversionedId": "install-live-chat-plugin",
-              "id": "install-live-chat-plugin",
-              "title": "Install Live Chat Plugin",
-              "description": "By enabling Buidler Live Chat on your website, you can provide your visitors with an easy way to get in touch with you and receive real-time support.",
-              "source": "@site/general/install-live-chat-plugin.mdx",
+              "unversionedId": "add-community-chat-plugin",
+              "id": "add-community-chat-plugin",
+              "title": "Add Community Chat Plugin",
+              "description": "Website owners can increase user engagement by integrating our plugin. Seamlessly offer real-time support and connect with your audience. Strengthen user loyalty, attract new visitors, and grow your community organically.",
+              "source": "@site/general/add-community-chat-plugin.mdx",
               "sourceDirName": ".",
-              "slug": "/install-live-chat-plugin",
-              "permalink": "/install-live-chat-plugin",
+              "slug": "/add-community-chat-plugin",
+              "permalink": "/add-community-chat-plugin",
               "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "title": "Install Live Chat Plugin",
+                "title": "Add Community Chat Plugin",
                 "sidebar_position": 1,
-                "id": "install-live-chat-plugin"
+                "id": "add-community-chat-plugin",
+                "description": "Website owners can increase user engagement by integrating our plugin. Seamlessly offer real-time support and connect with your audience. Strengthen user loyalty, attract new visitors, and grow your community organically.",
+                "og:title": "Add Community Chat To Your Website",
+                "og:description": "Website owners can increase user engagement by integrating our plugin. Seamlessly offer real-time support and connect with your audience. Strengthen user loyalty, attract new visitors, and grow your community organically.",
+                "og:twitter:card": "summary_large_image",
+                "og:twitter:site": "@buidler_app",
+                "og:twitter:title": "Add Community Chat To Your Website",
+                "og:twitter:description": "Website owners can increase user engagement by integrating our plugin. Seamlessly offer real-time support and connect with your audience. Strengthen user loyalty, attract new visitors, and grow your community organically.",
+                "og:twitter:image": "https://docs.buidler.app/img/buidler-extension.png"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Buidler Introduction",
-                "permalink": "/buidler-introduction"
+                "title": "About Buidler",
+                "permalink": "/about"
               }
             }
           ],
@@ -80,11 +87,11 @@
             "tutorialSidebar": [
               {
                 "type": "doc",
-                "id": "buidler-introduction"
+                "id": "about"
               },
               {
                 "type": "doc",
-                "id": "install-live-chat-plugin"
+                "id": "add-community-chat-plugin"
               }
             ]
           }

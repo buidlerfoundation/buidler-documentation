@@ -58,14 +58,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [{property: 'og:image', content: 'https://docs.buidler.app/img/buidler-extension.png'},
-                // {property: 'og:description', content: 'Stay up-to-date with the latest updates, insights, and use cases of Buidler. Join our community and be part of the future of decentralized communication today.'},
-                // {property: 'og:title', content: 'Buidler Documentation'},
-                // {property: 'og:site_name', content: 'Buidler Documentation'},
-                // {property: 'twitter:site', content: '@buidler_app'},
-                // {property: 'twitter:card', content: 'summary_large_image'},
-                // {property: 'twitter:title', content: 'Buidler Documentation'},
-                // {property: 'twitter:description', content: 'Buidler is a messaging platform that lets you dive into communities right on the sites you are browsing, instantly.'},
-                // {property: 'twitter:image', content: 'https://docs.buidler.app/img/buidler-extension.png'},
+                {property: 'og:description', content: 'Buidler is a messaging platform that lets you dive into communities right on the sites you are browsing, instantly.'},
+                {property: 'og:title', content: 'Buidler Documentation'},
+                {property: 'og:site_name', content: 'Buidler'},
+                {property: 'twitter:site', content: '@buidler_app'},
+                {property: 'twitter:card', content: 'summary_large_image'},
+                {property: 'twitter:title', content: 'Buidler Documentation'},
+                {property: 'twitter:description', content: 'Buidler is a messaging platform that lets you dive into communities right on the sites you are browsing, instantly.'},
+                {property: 'twitter:image', content: 'https://docs.buidler.app/img/buidler-extension.png'},
               ],
       algolia: {
         // The application ID provided by Algolia
@@ -157,7 +157,7 @@ const config = {
               },
               {
                 label: "Web Plugin",
-                href: "https://docs.buidler.app/install-live-chat-plugin",
+                href: "https://docs.buidler.app/add-community-chat-plugin",
               },
             ],
           },

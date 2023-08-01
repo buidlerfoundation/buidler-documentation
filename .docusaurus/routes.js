@@ -54,17 +54,17 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '493'),
+    component: ComponentCreator('/', 'e18'),
     routes: [
       {
-        path: '/buidler-introduction',
-        component: ComponentCreator('/buidler-introduction', 'aaf'),
+        path: '/about',
+        component: ComponentCreator('/about', '171'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/install-live-chat-plugin',
-        component: ComponentCreator('/install-live-chat-plugin', 'c0c'),
+        path: '/add-community-chat-plugin',
+        component: ComponentCreator('/add-community-chat-plugin', '064'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

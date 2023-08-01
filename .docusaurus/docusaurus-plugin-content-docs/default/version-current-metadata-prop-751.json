@@ -11,29 +11,29 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Buidler Introduction",
-        "href": "/buidler-introduction",
-        "docId": "buidler-introduction"
+        "label": "About Buidler",
+        "href": "/about",
+        "docId": "about"
       },
       {
         "type": "link",
-        "label": "Install Live Chat Plugin",
-        "href": "/install-live-chat-plugin",
-        "docId": "install-live-chat-plugin"
+        "label": "Add Community Chat Plugin",
+        "href": "/add-community-chat-plugin",
+        "docId": "add-community-chat-plugin"
       }
     ]
   },
   "docs": {
-    "buidler-introduction": {
-      "id": "buidler-introduction",
-      "title": "Buidler Introduction",
+    "about": {
+      "id": "about",
+      "title": "About Buidler",
       "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
       "sidebar": "tutorialSidebar"
     },
-    "install-live-chat-plugin": {
-      "id": "install-live-chat-plugin",
-      "title": "Install Live Chat Plugin",
-      "description": "By enabling Buidler Live Chat on your website, you can provide your visitors with an easy way to get in touch with you and receive real-time support.",
+    "add-community-chat-plugin": {
+      "id": "add-community-chat-plugin",
+      "title": "Add Community Chat Plugin",
+      "description": "Website owners can increase user engagement by integrating our plugin. Seamlessly offer real-time support and connect with your audience. Strengthen user loyalty, attract new visitors, and grow your community organically.",
       "sidebar": "tutorialSidebar"
     }
   }
