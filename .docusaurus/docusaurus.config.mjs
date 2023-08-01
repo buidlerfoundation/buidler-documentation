@@ -43,44 +43,6 @@ export default {
     ]
   ],
   "themeConfig": {
-    "metadata": [
-      {
-        "property": "og:image",
-        "content": "https://docs.buidler.app/img/buidler-extension.png"
-      },
-      {
-        "property": "og:description",
-        "content": "Buidler is a messaging platform that lets you dive into communities right on the sites you are browsing, instantly."
-      },
-      {
-        "property": "og:title",
-        "content": "Buidler Documentation"
-      },
-      {
-        "property": "og:site_name",
-        "content": "Buidler"
-      },
-      {
-        "property": "twitter:site",
-        "content": "@buidler_app"
-      },
-      {
-        "property": "twitter:card",
-        "content": "summary_large_image"
-      },
-      {
-        "property": "twitter:title",
-        "content": "Buidler Documentation"
-      },
-      {
-        "property": "twitter:description",
-        "content": "Buidler is a messaging platform that lets you dive into communities right on the sites you are browsing, instantly."
-      },
-      {
-        "property": "twitter:image",
-        "content": "https://docs.buidler.app/img/buidler-extension.png"
-      }
-    ],
     "algolia": {
       "appId": "A3JJXZEKHY",
       "apiKey": "62caf7194121c00c32dac90304b13a9f",
@@ -311,6 +273,7 @@ export default {
         "autoCollapseCategories": false
       }
     },
+    "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
