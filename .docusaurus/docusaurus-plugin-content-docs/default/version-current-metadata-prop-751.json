@@ -11,6 +11,12 @@
     "tutorialSidebar": [
       {
         "type": "link",
+        "label": "Buidler Introduction",
+        "href": "/buidler-introduction",
+        "docId": "buidler-introduction"
+      },
+      {
+        "type": "link",
         "label": "Install Live Chat Plugin",
         "href": "/install-live-chat-plugin",
         "docId": "install-live-chat-plugin"
@@ -18,6 +24,12 @@
     ]
   },
   "docs": {
+    "buidler-introduction": {
+      "id": "buidler-introduction",
+      "title": "Buidler Introduction",
+      "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly. By installing the Buidler Extension, you can hang out, ask questions, or collaborate with everyone on the website directly on your browser - without switching or searching for chat channels.",
+      "sidebar": "tutorialSidebar"
+    },
     "install-live-chat-plugin": {
       "id": "install-live-chat-plugin",
       "title": "Install Live Chat Plugin",

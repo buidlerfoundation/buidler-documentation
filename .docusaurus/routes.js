@@ -54,8 +54,14 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'b9c'),
+    component: ComponentCreator('/', '493'),
     routes: [
+      {
+        path: '/buidler-introduction',
+        component: ComponentCreator('/buidler-introduction', 'aaf'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/install-live-chat-plugin',
         component: ComponentCreator('/install-live-chat-plugin', 'c0c'),

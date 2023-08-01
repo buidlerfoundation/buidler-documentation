@@ -24,6 +24,7 @@ const sidebars = {
     //   label: 'General',
     //   items: ['install-live-chat-plugin'],
     // },
+    'buidler-introduction',
     'install-live-chat-plugin',
   ],
 
