@@ -49,14 +49,6 @@ export default {
         "content": "https://docs.buidler.app/img/buidler-extension.png"
       },
       {
-        "property": "og:description",
-        "content": "Buidler is a messaging platform that lets you dive into communities right on the sites you are browsing, instantly."
-      },
-      {
-        "property": "og:title",
-        "content": "Buidler Documentation"
-      },
-      {
         "property": "og:site_name",
         "content": "Buidler"
       },
