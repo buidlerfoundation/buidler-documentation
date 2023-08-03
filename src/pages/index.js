@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Layout>
         <main className={styles.heroBanner}>
-          <h1>Buidler Documentation</h1>
+          <h1 style="visibility: hidden;">About Buidler</h1>
           <meta name="title" content="About Buidler"/>
           <meta name="description" content="Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly."/>
         </main>
