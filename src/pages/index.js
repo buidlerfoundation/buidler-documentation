@@ -9,13 +9,28 @@ import  { Redirect } from 'react-router-dom';
 import styles from './index.module.css';
 
 export default function Home() {
-  // return (
-  //   <Layout>
-  //     <main className={clsx(styles.heroBanner)}>
-  //       <HomepageFeatures />
-  //     </main>
-  //   </Layout>
-  // );
-  return <Redirect to='/about'/>;
+  return (
+    <>
+      <Layout>
+        <main className={styles.heroBanner}>
+          <h1>Buidler Documentation</h1>
+          <meta name="title" content="About Buidler"/>
+          <meta name="description" content="Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly."/>
+        </main>
+      </Layout>
+      <Redirect to='/about' />
+    </>
+  );
 }
+
+// export default function Home() {
+//   // return (
+//   //   <Layout>
+//   //     <main className={clsx(styles.heroBanner)}>
+//   //       <HomepageFeatures />
+//   //     </main>
+//   //   </Layout>
+//   // );
+//   return <Redirect to='/about'/>;
+// }
 
