@@ -11,9 +11,9 @@ import styles from './index.module.css';
 export default function Home() {
   return (
     <>
-      <Layout>
+      <Layout style="display: none;">
         <main className={styles.heroBanner}>
-          <h1 style="visibility: hidden;">About Buidler</h1>
+          <h1>About Buidler</h1>
           <meta name="title" content="About Buidler"/>
           <meta name="description" content="Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly."/>
         </main>

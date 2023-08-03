@@ -112,16 +112,6 @@
         "source": "@site/src/pages/404.js"
       },
       {
-        "type": "mdx",
-        "permalink": "/404",
-        "source": "@site/src/pages/404.md",
-        "title": "Not Found",
-        "description": "Sorry, the page you are looking for does not exist.",
-        "frontMatter": {
-          "title": "Not Found"
-        }
-      },
-      {
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
