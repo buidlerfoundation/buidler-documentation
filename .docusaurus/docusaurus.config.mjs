@@ -304,6 +304,10 @@ export default {
         "dark": "rgb(50, 50, 50)"
       }
     },
+    "notFound": [
+      "The page you are looking for does not exist.",
+      "You may have mistyped the address or the page may have moved."
+    ],
     "docs": {
       "versionPersistence": "localStorage",
       "sidebar": {

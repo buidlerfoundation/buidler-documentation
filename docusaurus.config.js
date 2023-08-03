@@ -195,7 +195,11 @@ const config = {
           light: "rgb(255, 255, 255)",
           dark: "rgb(50, 50, 50)",
         },
-      }
+      },
+      notFound: [
+        "The page you are looking for does not exist.",
+        "You may have mistyped the address or the page may have moved.",
+      ],
     }),
   plugins: [
     path.resolve("src", 'buidler-plugin'),

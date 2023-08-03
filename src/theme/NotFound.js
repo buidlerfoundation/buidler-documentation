@@ -6,8 +6,8 @@ export default function NotFoundWrapper(props) {
   return (
     <Layout>
       <div className="container margin-vert--xl container-404">
-        <span className="page-content content-desktop">Oops! Page Not Found</span>
-        <span className="page-content content-mobile">Oops!<br />Page Not Found</span>
+        <span className="page-content content-desktop">Page Not Found</span>
+        <span className="page-content content-mobile"><br />Page Not Found</span>
         <span className="page-description ml-auto mr-auto">
           It seems like we can't find the page you are looking for. Let's head
           back home or try other links instead.

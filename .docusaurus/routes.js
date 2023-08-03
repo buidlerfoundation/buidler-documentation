@@ -43,6 +43,11 @@ export default [
     exact: true
   },
   {
+    path: '/404',
+    component: ComponentCreator('/404', '2d0'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '491'),
     exact: true
