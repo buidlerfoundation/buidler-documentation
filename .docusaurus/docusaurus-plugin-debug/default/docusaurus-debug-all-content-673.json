@@ -29,10 +29,10 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 0,
               "frontMatter": {
                 "title": "About Buidler",
-                "sidebar_position": 1,
+                "sidebar_position": 0,
                 "id": "about",
                 "description": "Buidler is a messaging platform lets you dive into communities right on the sites you're browsing, instantly."
               },
@@ -108,33 +108,8 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/404",
-        "source": "@site/src/pages/404.js"
-      },
-      {
-        "type": "mdx",
-        "permalink": "/404",
-        "source": "@site/src/pages/404.md",
-        "title": "Not Found",
-        "description": "Sorry, the page you are looking for does not exist.",
-        "frontMatter": {
-          "title": "Not Found"
-        }
-      },
-      {
-        "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
-      },
-      {
-        "type": "mdx",
-        "permalink": "/markdown-page",
-        "source": "@site/src/pages/markdown-page.md",
-        "title": "Markdown page example",
-        "description": "You don't need React to write simple standalone pages.",
-        "frontMatter": {
-          "title": "Markdown page example"
-        }
       }
     ]
   },

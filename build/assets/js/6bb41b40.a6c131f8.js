@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[838],{67:(e,n,t)=>{t.r(n),t.d(n,{default:()=>u});var l=t(7294);const u=function(){return l.createElement("div",null,l.createElement("h1",null,"404 - Page not found"),l.createElement("p",null,"Sorry, the page you are looking for cannot be found."))}}}]);
