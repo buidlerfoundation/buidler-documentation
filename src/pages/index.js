@@ -22,6 +22,24 @@ export default function Home() {
           Enter Builder! It's like a lively hangout space right on the sites you love. Instantly
           connect and discuss with like-minded people on the same site, all within your browser.
         </p>
+        <h2 style={{ display: 'none' }}>
+        Chat Anywhere, Anytime: Discuss news articles, share thoughts on videos, or simply make friends with people right on the sites you visit!
+        </h2>
+        <h2 style={{ display: 'none' }}>
+        Enhance Website Interactivity: Buidler brings chat spaces to every webpage, from blogs to forums, e-commerce, and any other platform, making them more socially interactive.
+        </h2>
+        <h2 style={{ display: 'none' }}>
+        Community Chat Plugin: Website owners can increase user engagement by integrating our plugin. Strengthen user loyalty, attract new visitors, and grow your community organically.
+        </h2>
+        <h2 style={{ display: 'none' }}>
+        Community Chat Plugin: Website owners can increase user engagement by integrating our plugin. Strengthen user loyalty, attract new visitors, and grow your community organically.
+        </h2>
+        <p style={{ display: 'none' }}>
+        Buidler is your gateway to a more interactive and connected online world. So, what are you waiting for? Let's embrace the change and reshape web browsing together.
+        </p>
+        <p style={{ display: 'none' }}>
+        We believe that the root of all problems in the world is wrong communication. Our mission here is to solve it, especially focusing on communication problems on the internet. Join discussions, share knowledge, and collaborate towards common goals.
+        </p>
         <meta name="title" content="About Buidler" />
         <meta
           name="description"
