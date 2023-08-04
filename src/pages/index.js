@@ -40,6 +40,11 @@ export default function Home() {
         <p style={{ display: 'none' }}>
         We believe that the root of all problems in the world is wrong communication. Our mission here is to solve it, especially focusing on communication problems on the internet. Join discussions, share knowledge, and collaborate towards common goals.
         </p>
+        <p style={{ display: 'none' }}>
+        Buidler, a simple extension that transforms websites into communities. Each URL becomes a chat room, connecting users viewing the same content effortlessly.
+        Our browser app enables real-time discussions and interactions while browsing - no more wasted time switching between platforms. Stay connected and engaged seamlessly inside the Builder app.
+        If you own a website, integrate Builder into it to build loyal communities that keep visitors engaged, connected, and coming back for more.
+        </p>
         <meta name="title" content="About Buidler" />
         <meta
           name="description"
