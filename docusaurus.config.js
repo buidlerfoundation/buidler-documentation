@@ -149,7 +149,7 @@ const config = {
             items: [
               {
                 label: "Web App",
-                href: "https://beta.buidler.app/",
+                href: "https://buidler.app/communities",
               },
               {
                 label: "Extension",
